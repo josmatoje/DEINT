@@ -28,15 +28,14 @@ namespace HelloWorld_WPF_CSharp
 
         private void boton_Click(object sender, RoutedEventArgs e)
         {
-            String nombre = txt_nombre.Text;
             //Insatanciacion y declaracion
-            clsPersona persona = new clsPersona();
+            //clsPersona persona = new clsPersona();
 
-            if (String.IsNullOrEmpty(nombre))
+            if (String.IsNullOrEmpty(txt_nombre.Text))
 
                 MessageBox.Show("Introduzca un valor");
             else
-                MessageBox.Show($"Saludos joven {nombre}");
+                MessageBox.Show($"Saludos joven {txt_nombre.Text}");
 
 
         }

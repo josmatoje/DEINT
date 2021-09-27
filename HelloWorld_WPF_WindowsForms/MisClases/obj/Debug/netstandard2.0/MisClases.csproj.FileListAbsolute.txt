@@ -7,3 +7,13 @@ D:\jmmata\DEINT\HelloWorld_WPF_WindowsForms\MisClases\obj\Debug\netstandard2.0\M
 D:\jmmata\DEINT\HelloWorld_WPF_WindowsForms\MisClases\obj\Debug\netstandard2.0\MisClases.csproj.CoreCompileInputs.cache
 D:\jmmata\DEINT\HelloWorld_WPF_WindowsForms\MisClases\obj\Debug\netstandard2.0\MisClases.dll
 D:\jmmata\DEINT\HelloWorld_WPF_WindowsForms\MisClases\obj\Debug\netstandard2.0\MisClases.pdb
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\MisClases\bin\Debug\netstandard2.0\MisClases.deps.json
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\MisClases\bin\Debug\netstandard2.0\MisClases.dll
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\MisClases\bin\Debug\netstandard2.0\MisClases.pdb
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\MisClases\obj\Debug\netstandard2.0\MisClases.csproj.AssemblyReference.cache
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\MisClases\obj\Debug\netstandard2.0\MisClases.GeneratedMSBuildEditorConfig.editorconfig
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\MisClases\obj\Debug\netstandard2.0\MisClases.AssemblyInfoInputs.cache
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\MisClases\obj\Debug\netstandard2.0\MisClases.AssemblyInfo.cs
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\MisClases\obj\Debug\netstandard2.0\MisClases.csproj.CoreCompileInputs.cache
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\MisClases\obj\Debug\netstandard2.0\MisClases.dll
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\MisClases\obj\Debug\netstandard2.0\MisClases.pdb

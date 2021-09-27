@@ -1,0 +1,15 @@
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\HelloWorld_WindowsForms_VB\bin\Debug\HelloWorld_WindowsForms_VB.exe.config
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\HelloWorld_WindowsForms_VB\bin\Debug\HelloWorld_WindowsForms_VB.exe
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\HelloWorld_WindowsForms_VB\bin\Debug\HelloWorld_WindowsForms_VB.pdb
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\HelloWorld_WindowsForms_VB\bin\Debug\HelloWorld_WindowsForms_VB.xml
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\HelloWorld_WindowsForms_VB\obj\Debug\HelloWorld_WindowsForms_VB.vbproj.AssemblyReference.cache
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\HelloWorld_WindowsForms_VB\obj\Debug\HelloWorld_WindowsForms_VB.Resources.resources
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\HelloWorld_WindowsForms_VB\obj\Debug\HelloWorld_WindowsForms_VB.vbproj.GenerateResource.cache
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\HelloWorld_WindowsForms_VB\obj\Debug\HelloWorld_WindowsForms_VB.vbproj.CoreCompileInputs.cache
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\HelloWorld_WindowsForms_VB\obj\Debug\HelloWorld_WindowsForms_VB.exe
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\HelloWorld_WindowsForms_VB\obj\Debug\HelloWorld_WindowsForms_VB.xml
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\HelloWorld_WindowsForms_VB\obj\Debug\HelloWorld_WindowsForms_VB.pdb
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\HelloWorld_WindowsForms_VB\bin\Debug\MisClases.dll
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\HelloWorld_WindowsForms_VB\bin\Debug\MisClases.pdb
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\HelloWorld_WindowsForms_VB\obj\Debug\HelloWorld_WindowsForms_VB.Form1.resources
+D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\HelloWorld_WindowsForms_VB\obj\Debug\HelloWorld_WindowsForms_VB.vbproj.CopyComplete
