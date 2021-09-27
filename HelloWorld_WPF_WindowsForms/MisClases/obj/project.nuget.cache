@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UCrYkpZTaIMzsGNRU5bBEo8EjXSJClreeGQS4NA5kTwCS+oaEeOcQDDCn1O+6bVqyydo3ll8iEk5ZmMdzhrFaA==",
+  "success": true,
+  "projectFilePath": "D:\\jmmata\\DEINT\\HelloWorld_WPF_WindowsForms\\MisClases\\MisClases.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jmmata\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jmmata\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
