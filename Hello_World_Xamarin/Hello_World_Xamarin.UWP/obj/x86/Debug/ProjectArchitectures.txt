@@ -1,0 +1,1 @@
+D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.UWP\Hello_World_Xamarin.UWP.csproj;x86

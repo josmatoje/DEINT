@@ -1,0 +1,14 @@
+D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\bin\Debug\netstandard2.0\Hello_World_Xamarin.deps.json
+D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\bin\Debug\netstandard2.0\Hello_World_Xamarin.dll
+D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\bin\Debug\netstandard2.0\ref\Hello_World_Xamarin.dll
+D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\bin\Debug\netstandard2.0\Hello_World_Xamarin.pdb
+D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\Hello_World_Xamarin.csprojAssemblyReference.cache
+D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\Hello_World_Xamarin.AssemblyInfoInputs.cache
+D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\Hello_World_Xamarin.AssemblyInfo.cs
+D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\Hello_World_Xamarin.csproj.CoreCompileInputs.cache
+D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\XamlC.stamp
+D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\Hello_World_Xamarin.dll
+D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\ref\Hello_World_Xamarin.dll
+D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\Hello_World_Xamarin.pdb

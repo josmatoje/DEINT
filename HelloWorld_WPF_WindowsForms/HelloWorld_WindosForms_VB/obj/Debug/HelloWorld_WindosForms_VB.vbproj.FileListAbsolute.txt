@@ -1,1 +1,0 @@
-D:\GS DAM\Repositorios\DEINT\HelloWorld_WPF_WindowsForms\HelloWorld_WindosForms_VB\obj\Debug\HelloWorld_WindosForms_VB.vbproj.AssemblyReference.cache
