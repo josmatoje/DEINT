@@ -1930,24 +1930,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jmmata\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\josem\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\jmmata\\DEINT\\Hello_World_Xamarin\\Hello_World_Xamarin.Android\\Hello_World_Xamarin.Android.csproj",
+      "projectUniqueName": "D:\\GS DAM\\Repositorios\\DEINT\\Hello_World_Xamarin\\Hello_World_Xamarin.Android\\Hello_World_Xamarin.Android.csproj",
       "projectName": "Hello_World_Xamarin.Android",
-      "projectPath": "D:\\jmmata\\DEINT\\Hello_World_Xamarin\\Hello_World_Xamarin.Android\\Hello_World_Xamarin.Android.csproj",
-      "packagesPath": "C:\\Users\\jmmata\\.nuget\\packages\\",
-      "outputPath": "D:\\jmmata\\DEINT\\Hello_World_Xamarin\\Hello_World_Xamarin.Android\\obj\\",
+      "projectPath": "D:\\GS DAM\\Repositorios\\DEINT\\Hello_World_Xamarin\\Hello_World_Xamarin.Android\\Hello_World_Xamarin.Android.csproj",
+      "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
+      "outputPath": "D:\\GS DAM\\Repositorios\\DEINT\\Hello_World_Xamarin\\Hello_World_Xamarin.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\jmmata\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\josem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1961,8 +1964,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\jmmata\\DEINT\\Hello_World_Xamarin\\Hello_World_Xamarin\\Hello_World_Xamarin.csproj": {
-              "projectPath": "D:\\jmmata\\DEINT\\Hello_World_Xamarin\\Hello_World_Xamarin\\Hello_World_Xamarin.csproj"
+            "D:\\GS DAM\\Repositorios\\DEINT\\Hello_World_Xamarin\\Hello_World_Xamarin\\Hello_World_Xamarin.csproj": {
+              "projectPath": "D:\\GS DAM\\Repositorios\\DEINT\\Hello_World_Xamarin\\Hello_World_Xamarin\\Hello_World_Xamarin.csproj"
             }
           }
         }

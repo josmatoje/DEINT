@@ -12,3 +12,18 @@ D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0
 D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\Hello_World_Xamarin.dll
 D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\ref\Hello_World_Xamarin.dll
 D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\Hello_World_Xamarin.pdb
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\bin\Debug\netstandard2.0\Hello_World_Xamarin.deps.json
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\bin\Debug\netstandard2.0\Hello_World_Xamarin.dll
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\bin\Debug\netstandard2.0\ref\Hello_World_Xamarin.dll
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\bin\Debug\netstandard2.0\Hello_World_Xamarin.pdb
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\Hello_World_Xamarin.csproj.AssemblyReference.cache
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\Hello_World_Xamarin.GeneratedMSBuildEditorConfig.editorconfig
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\Hello_World_Xamarin.AssemblyInfoInputs.cache
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\Hello_World_Xamarin.AssemblyInfo.cs
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\Hello_World_Xamarin.csproj.CoreCompileInputs.cache
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\XamlC.stamp
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\Hello_World_Xamarin.dll
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\ref\Hello_World_Xamarin.dll
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin\obj\Debug\netstandard2.0\Hello_World_Xamarin.pdb

@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "kPPvVlJP1jx88LVjPSW0+dK84t7f610JARXjhcqG4XJBQVeshGYDva0Q2u2dtkEZU42FT5VS2NDd0FVdzLeJ7w==",
+  "dgSpecHash": "t3lHizUF1Tvxt+91kp8LPf0QVA2iqOk0qMKWleaineJ2WL0ibGta6ySdilw9ktNjo9/A89EutgLsx2Vr4UMdPA==",
   "success": true,
-  "projectFilePath": "D:\\jmmata\\DEINT\\Hello_World_Xamarin\\Hello_World_Xamarin\\Hello_World_Xamarin.csproj",
+  "projectFilePath": "D:\\GS DAM\\Repositorios\\DEINT\\Hello_World_Xamarin\\Hello_World_Xamarin\\Hello_World_Xamarin.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jmmata\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\jmmata\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\jmmata\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "C:\\Users\\josem\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\josem\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\josem\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\josem\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\josem\\.nuget\\packages\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
   "logs": []
 }

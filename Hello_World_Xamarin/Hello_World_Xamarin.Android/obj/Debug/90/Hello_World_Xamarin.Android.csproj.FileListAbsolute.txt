@@ -1,0 +1,7 @@
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\build.props
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\adb.props
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\Hello_World_Xamarin.Android.csproj.AssemblyReference.cache
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
+D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\res.flag
