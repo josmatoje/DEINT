@@ -1,45 +1,45 @@
-@string/appbar_scrolling_view_behavior;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\layout\flyoutcontent.xml
-@string/appbar_scrolling_view_behavior;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\layout\rootlayout.xml
+@string/appbar_scrolling_view_behavior;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
+@string/appbar_scrolling_view_behavior;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
-alpha;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\anim\enterfromleft.xml
-alpha;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\anim\exittoleft.xml
-android.support.design.widget.AppBarLayout;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\layout\flyoutcontent.xml
-android.support.design.widget.AppBarLayout;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\layout\rootlayout.xml
-android.support.design.widget.AppBarLayout;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\layout\shellcontent.xml
-android.support.design.widget.BottomNavigationView;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\layout\bottomtablayout.xml
-android.support.design.widget.CoordinatorLayout;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\layout\flyoutcontent.xml
-android.support.design.widget.CoordinatorLayout;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\layout\rootlayout.xml
-android.support.design.widget.CoordinatorLayout;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\layout\shellcontent.xml
-android.support.design.widget.TabLayout;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\layout\rootlayout.xml
+alpha;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml
+alpha;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\anim\exittoleft.xml
+android.support.design.widget.AppBarLayout;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.AppBarLayout;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+android.support.design.widget.AppBarLayout;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
+android.support.design.widget.BottomNavigationView;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
+android.support.design.widget.CoordinatorLayout;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.CoordinatorLayout;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+android.support.design.widget.CoordinatorLayout;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
+android.support.design.widget.TabLayout;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
 android.support.design.widget.TabLayout;obj\Debug\90\res\layout\tabbar.xml
-android.support.v7.widget.RecyclerView;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\layout\flyoutcontent.xml
-android.support.v7.widget.Toolbar;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\layout\rootlayout.xml
-android.support.v7.widget.Toolbar;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\layout\shellcontent.xml
+android.support.v7.widget.RecyclerView;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
+android.support.v7.widget.Toolbar;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+android.support.v7.widget.Toolbar;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
 android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\toolbar.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
-cache-path;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\79\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\90\res\values\colors.xml
-external-cache-path;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\79\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-external-path;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\79\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-cache-path;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
-FrameLayout;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\layout\bottomtablayout.xml
-item;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\values\styles.xml
-LinearLayout;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\layout\bottomtablayout.xml
-paths;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\79\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-resources;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\values\styles.xml
+FrameLayout;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
+item;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
+LinearLayout;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
+paths;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+resources;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\styles.xml
-set;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\anim\enterfromleft.xml
-set;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\anim\enterfromright.xml
-set;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\anim\exittoleft.xml
-set;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\anim\exittoright.xml
-style;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\values\styles.xml
+set;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml
+set;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromright.xml
+set;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\anim\exittoleft.xml
+set;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\anim\exittoright.xml
+style;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 style;obj\Debug\90\res\values\styles.xml
-translate;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\anim\enterfromleft.xml
-translate;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\anim\enterfromright.xml
-translate;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\anim\exittoleft.xml
-translate;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\anim\exittoright.xml
-xamarin.forms.platform.android.appcompat.FormsViewPager;D:\GS DAM\Repositorios\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\80\jl\res\layout\rootlayout.xml
+translate;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml
+translate;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromright.xml
+translate;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\anim\exittoleft.xml
+translate;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\anim\exittoright.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GDo9DN0hbUq6KKMYV51FDXA8W4wczQUl3bIuUWKc9caNMS6HdoAbOTNfE4c8H1Arjm5GGEdBX8FYPbtLMNv9NA==",
+  "success": true,
+  "projectFilePath": "D:\\jmmata\\DEINT\\Hello_World_Xamarin\\Persona\\Persona.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jmmata\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jmmata\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

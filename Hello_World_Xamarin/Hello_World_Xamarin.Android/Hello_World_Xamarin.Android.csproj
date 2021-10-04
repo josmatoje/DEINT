@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -93,6 +93,10 @@
       <Project>{9EC59E35-34AF-46AC-9A26-811452D73F56}</Project>
       <Name>Hello_World_Xamarin</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Persona\Persona.csproj">
+      <Project>{cb42f42d-bb83-47b9-88e5-97dedf87cab4}</Project>
+      <Name>Persona</Name>
+    </ProjectReference>
   </ItemGroup>
- <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

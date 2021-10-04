@@ -19,6 +19,10 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
+
+        <Label Text="Escribe tu nombre" FontSize="16" Padding="30,0,30,0"/>
+        <Entry x:Name="txtNombre" FontSize="16"/>
+        <Button Text="Pulsame" Clicked="Button_Clicked"/>
     </StackLayout>
 
 </ContentPage>

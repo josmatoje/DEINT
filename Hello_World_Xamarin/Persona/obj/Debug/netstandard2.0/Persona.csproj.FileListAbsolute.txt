@@ -1,0 +1,9 @@
+D:\jmmata\DEINT\Hello_World_Xamarin\Persona\bin\Debug\netstandard2.0\Persona.deps.json
+D:\jmmata\DEINT\Hello_World_Xamarin\Persona\bin\Debug\netstandard2.0\Persona.dll
+D:\jmmata\DEINT\Hello_World_Xamarin\Persona\bin\Debug\netstandard2.0\Persona.pdb
+D:\jmmata\DEINT\Hello_World_Xamarin\Persona\obj\Debug\netstandard2.0\Persona.csprojAssemblyReference.cache
+D:\jmmata\DEINT\Hello_World_Xamarin\Persona\obj\Debug\netstandard2.0\Persona.AssemblyInfoInputs.cache
+D:\jmmata\DEINT\Hello_World_Xamarin\Persona\obj\Debug\netstandard2.0\Persona.AssemblyInfo.cs
+D:\jmmata\DEINT\Hello_World_Xamarin\Persona\obj\Debug\netstandard2.0\Persona.csproj.CoreCompileInputs.cache
+D:\jmmata\DEINT\Hello_World_Xamarin\Persona\obj\Debug\netstandard2.0\Persona.dll
+D:\jmmata\DEINT\Hello_World_Xamarin\Persona\obj\Debug\netstandard2.0\Persona.pdb

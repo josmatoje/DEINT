@@ -311,3 +311,5 @@ D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.UWP\obj\x86\Debug\Multip
 D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.UWP\obj\x86\Debug\ProjectArchitectures.txt
 D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160679180000000.json
 D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.UWP\bin\x86\Debug\Persona.dll
+D:\jmmata\DEINT\Hello_World_Xamarin\Hello_World_Xamarin.UWP\bin\x86\Debug\Persona.pdb

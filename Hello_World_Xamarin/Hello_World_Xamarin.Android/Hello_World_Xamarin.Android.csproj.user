@@ -3,5 +3,6 @@
   <PropertyGroup>
     <SelectedDevice>Xiaomi Redmi S2</SelectedDevice>
     <ActiveDebugProfile>Xiaomi Redmi S2</ActiveDebugProfile>
+    <AndroidDesignerPreferredTheme>Theme.AppCompat.Light.NoActionBar</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>
