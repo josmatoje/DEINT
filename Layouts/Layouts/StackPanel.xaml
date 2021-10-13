@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="Layouts.StackPanel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Layouts"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+    <StackPanel BorderBrush="Blue" CornerRadius="20" Margin="10" Background="White" Orientation="Vertical">
+        <Button x:Name="btn1" Content="Hello World (withpadding)" HorizontalAlignment="center" Margin="0,20,0,0" Padding="20" BorderBrush="Black"/>
+        <Button x:Name="btn2" Content="Button 2" HorizontalAlignment="center" Margin="0,20,0,0" Padding="20" />
+        <Button x:Name="btn3" Content="Button 3" HorizontalAlignment="center" Margin="0,20,0,0" Padding="20" />
+        <Button x:Name="btn4" Content="Another Hello" HorizontalAlignment="center" Margin="0,20,0,0" Padding="20" />
+
+        <StackPanel>
+            <TextBlock />
+            <TextBox />
+        </StackPanel>
+
+    </StackPanel>
+
+</Page>
