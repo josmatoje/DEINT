@@ -58,3 +58,5 @@ D:\jmmata\DEINT\Layouts\Layouts\obj\x86\Debug\LoremIpsumApp.g.i.cs
 D:\jmmata\DEINT\Layouts\Layouts\obj\x86\Debug\LoremIpsumApp.g.cs
 D:\jmmata\DEINT\Layouts\Layouts\obj\x86\Debug\LoremIpsumApp.xaml
 D:\jmmata\DEINT\Layouts\Layouts\obj\x86\Debug\LoremIpsumApp.xbf
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\Layouts.exe
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\Layouts.pdb

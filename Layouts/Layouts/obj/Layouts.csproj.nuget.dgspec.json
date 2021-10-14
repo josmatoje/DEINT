@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\jmmata\\DEINT\\Layouts\\Layouts\\Layouts.csproj": {}
+    "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Layouts\\Layouts.csproj": {}
   },
   "projects": {
-    "D:\\jmmata\\DEINT\\Layouts\\Layouts\\Layouts.csproj": {
+    "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Layouts\\Layouts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\jmmata\\DEINT\\Layouts\\Layouts\\Layouts.csproj",
+        "projectUniqueName": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Layouts\\Layouts.csproj",
         "projectName": "Layouts",
-        "projectPath": "D:\\jmmata\\DEINT\\Layouts\\Layouts\\Layouts.csproj",
-        "packagesPath": "C:\\Users\\jmmata\\.nuget\\packages\\",
-        "outputPath": "D:\\jmmata\\DEINT\\Layouts\\Layouts\\obj\\",
+        "projectPath": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Layouts\\Layouts.csproj",
+        "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
+        "outputPath": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Layouts\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\jmmata\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\josem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
