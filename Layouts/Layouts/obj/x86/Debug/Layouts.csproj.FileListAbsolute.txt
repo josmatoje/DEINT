@@ -60,3 +60,24 @@ D:\jmmata\DEINT\Layouts\Layouts\obj\x86\Debug\LoremIpsumApp.xaml
 D:\jmmata\DEINT\Layouts\Layouts\obj\x86\Debug\LoremIpsumApp.xbf
 D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\Layouts.exe
 D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\Layouts.pdb
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\Layouts.csproj.AssemblyReference.cache
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\App.g.i.cs
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\App.g.cs
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\CuadritosColoridos.g.i.cs
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\CuadritosColoridos.g.cs
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\LoremIpsumApp.g.i.cs
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\LoremIpsumApp.g.cs
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\StackPanel.g.i.cs
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\StackPanel.g.cs
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\TamanhoVariable.g.i.cs
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\TamanhoVariable.g.cs
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\App.xaml
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\CuadritosColoridos.xaml
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\LoremIpsumApp.xaml
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\StackPanel.xaml
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\TamanhoVariable.xaml
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\App.xbf
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\CuadritosColoridos.xbf
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\LoremIpsumApp.xbf
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\StackPanel.xbf
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\TamanhoVariable.xbf
