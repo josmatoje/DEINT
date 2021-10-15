@@ -31,6 +31,12 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\jmmata\DEINT\Layouts\DAL%28DataAccesLayer%29\bin\Debug\netstandard2.0\DAL%28DataAccesLayer%29.dll">
+      <PackagePath>DAL%28DataAccesLayer%29.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\jmmata\DEINT\Layouts\Entidades\bin\Debug\netstandard2.0\Entidades.dll">
+      <PackagePath>Entidades.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
@@ -72,6 +78,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\jmmata\DEINT\Layouts\Layouts\bin\x86\Debug\CuadritosColoridos.xbf">
       <PackagePath>CuadritosColoridos.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\jmmata\DEINT\Layouts\Layouts\bin\x86\Debug\ListView.xbf">
+      <PackagePath>ListView.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\jmmata\DEINT\Layouts\Layouts\bin\x86\Debug\LoremIpsumApp.xbf">
       <PackagePath>LoremIpsumApp.xbf</PackagePath>

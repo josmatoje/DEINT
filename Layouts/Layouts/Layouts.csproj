@@ -122,6 +122,9 @@
     <Compile Include="CuadritosColoridos.xaml.cs">
       <DependentUpon>CuadritosColoridos.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ListView.xaml.cs">
+      <DependentUpon>ListView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LoremIpsumApp.xaml.cs">
       <DependentUpon>LoremIpsumApp.xaml</DependentUpon>
     </Compile>
@@ -157,6 +160,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="LoremIpsumApp.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -174,6 +181,16 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.10</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL%28DataAccesLayer%29\DAL%28DataAccesLayer%29.csproj">
+      <Project>{1843eabd-59f2-4a04-ab17-abb09606ba34}</Project>
+      <Name>DAL%28DataAccesLayer%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{c7343b92-ee7b-4255-9da0-1af43b275f95}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

@@ -81,3 +81,12 @@ D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\CuadritosColoridos.xb
 D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\LoremIpsumApp.xbf
 D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\StackPanel.xbf
 D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\TamanhoVariable.xbf
+D:\jmmata\DEINT\Layouts\Layouts\bin\x86\Debug\ListView.xbf
+D:\jmmata\DEINT\Layouts\Layouts\bin\x86\Debug\DAL(DataAccesLayer).dll
+D:\jmmata\DEINT\Layouts\Layouts\bin\x86\Debug\Entidades.dll
+D:\jmmata\DEINT\Layouts\Layouts\bin\x86\Debug\DAL(DataAccesLayer).pdb
+D:\jmmata\DEINT\Layouts\Layouts\bin\x86\Debug\Entidades.pdb
+D:\jmmata\DEINT\Layouts\Layouts\obj\x86\Debug\ListView.g.i.cs
+D:\jmmata\DEINT\Layouts\Layouts\obj\x86\Debug\ListView.g.cs
+D:\jmmata\DEINT\Layouts\Layouts\obj\x86\Debug\ListView.xaml
+D:\jmmata\DEINT\Layouts\Layouts\obj\x86\Debug\ListView.xbf

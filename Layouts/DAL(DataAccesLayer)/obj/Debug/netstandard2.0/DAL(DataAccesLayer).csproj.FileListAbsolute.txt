@@ -1,0 +1,12 @@
+D:\jmmata\DEINT\Layouts\DAL(DataAccesLayer)\bin\Debug\netstandard2.0\DAL(DataAccesLayer).deps.json
+D:\jmmata\DEINT\Layouts\DAL(DataAccesLayer)\bin\Debug\netstandard2.0\DAL(DataAccesLayer).dll
+D:\jmmata\DEINT\Layouts\DAL(DataAccesLayer)\bin\Debug\netstandard2.0\DAL(DataAccesLayer).pdb
+D:\jmmata\DEINT\Layouts\DAL(DataAccesLayer)\bin\Debug\netstandard2.0\Entidades.dll
+D:\jmmata\DEINT\Layouts\DAL(DataAccesLayer)\bin\Debug\netstandard2.0\Entidades.pdb
+D:\jmmata\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).csprojAssemblyReference.cache
+D:\jmmata\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).AssemblyInfoInputs.cache
+D:\jmmata\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).AssemblyInfo.cs
+D:\jmmata\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).csproj.CoreCompileInputs.cache
+D:\jmmata\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).csproj.CopyComplete
+D:\jmmata\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).dll
+D:\jmmata\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).pdb

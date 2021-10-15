@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="Layouts.ListView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Layouts"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <RelativePanel>
+        <StackPanel x:ConnectionId='2' x:Name="icons" Orientation="Horizontal" VerticalAlignment="Center">
+            <AppBarButton Icon="Accept"/>
+            <AppBarButton Icon="Delete"/>
+            <AppBarButton Icon="Download"/>
+            <AppBarButton Icon="Find"/>
+        </StackPanel>
+        <ListView x:ConnectionId='3' x:Name="fernandos" RelativePanel.Below="icons" RelativePanel.AlignRightWith="icons" RelativePanel.AlignLeftWithPanel="True" ScrollViewer.IsVerticalScrollChainingEnabled="False" Padding="5" >
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+            <ListViewItem>Fernando Galiana</ListViewItem>
+        </ListView>
+        <AppBarButton Icon="Add" Label="Añadir" RelativePanel.AlignBottomWith="fernandos" RelativePanel.AlignRightWith="fernandos" Margin="5"/>
+    </RelativePanel>
+    
+</Page>
+

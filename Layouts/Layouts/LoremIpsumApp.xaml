@@ -8,33 +8,48 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <StackPanel Orientation="Vertical">
-        <Border BorderBrush="Black" BorderThickness="1" Margin="5" Padding="5" VerticalAlignment="Top">
-            <TextBlock x:Name="txtBox1" Text="Titulo increiblemente original para la app" TextWrapping="Wrap" Margin="5"/>
-        </Border>
-        <Border BorderBrush="Black" BorderThickness="1" Margin="5" Padding="5">
-            <TextBlock x:Name="txtBox2" Text="Esto es un texto más largo pero yo que se, hay q escribir cosas y eso. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." 
-                       TextWrapping="Wrap" Margin="5" TextAlignment="Justify"/>
-        </Border>
-        <Grid BorderBrush="Black" BorderThickness="5" Height="Auto">
-            <Grid.RowDefinitions>
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Orientation="Vertical">
+            <!--Con Relative panel se soluciona el problema de no llegar al final-->
+            <Border BorderBrush="Black" BorderThickness="1" Margin="5" Padding="5" VerticalAlignment="Top" Height="Auto">
+                <TextBlock x:Name="txtBox1" Text="Titulo increiblemente original para la app" TextWrapping="Wrap" Margin="5"/>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1" Margin="5" Padding="5" Height="Auto">
+                <TextBlock x:Name="txtBox2" Text="Esto es un texto más largo pero yo que se, hay q escribir cosas y eso. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." 
+                           TextWrapping="Wrap" Margin="5" TextAlignment="Justify"/>
+            </Border>
+            <Grid BorderBrush="Black" BorderThickness="1" Height="Auto" VerticalAlignment="Stretch">
                 <Grid.RowDefinitions>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
-            </Grid.RowDefinitions>
-            <VariableSizedWrapGrid Grid.Column="0" Grid.RowSpan="4">
-                <Rectangle x:Name="rect1" DataContext="Image 1"/>
-            </VariableSizedWrapGrid>
-        </Grid>
-        <Border BorderBrush="Black" BorderThickness="1" Margin="5" Padding="5" VerticalAlignment="Bottom">
-            <TextBlock x:Name="txtBox2" TextWrapping="Wrap" Margin="5" TextAlignment="Justify"/>
-        </Border>
-    </StackPanel>
+                <VariableSizedWrapGrid Grid.Column="0" Grid.RowSpan="4" Orientation="Horizontal">
+                    <Rectangle x:Name="rect1" Fill="Orange" DataContext="Image 1" Height="150" Width="150" Margin="20"/>
+                    <Rectangle x:Name="rect2" Fill="Aqua" DataContext="Image 2" Height="150" Width="150" Margin="20"/>
+                    <Rectangle x:Name="rect3" Fill="GreenYellow" DataContext="Image 1" Height="150" Width="150" Margin="20"/>
+                </VariableSizedWrapGrid>
+                <Border Grid.Column="1" Grid.Row="0" BorderBrush="Black" BorderThickness="1" Margin="5" Padding="5" VerticalAlignment="Stretch">
+                    <TextBlock x:Name="txtBox3_1" TextWrapping="Wrap" Margin="5" TextAlignment="Justify"/>
+                </Border>
+                <Border Grid.Column="1" Grid.Row="1" BorderBrush="Black" BorderThickness="1" Margin="5" Padding="5" VerticalAlignment="Stretch">
+                    <TextBlock x:Name="txtBox3_2" TextWrapping="Wrap" Margin="5" TextAlignment="Justify"/>
+                </Border>
+                <Border Grid.Column="1" Grid.Row="2" BorderBrush="Black" BorderThickness="1" Margin="5" Padding="5" VerticalAlignment="Stretch">
+                    <TextBlock x:Name="txtBox3_3" TextWrapping="Wrap" Margin="5" TextAlignment="Justify"/>
+                </Border>
+                <Border Grid.Column="1" Grid.Row="3" BorderBrush="Black" BorderThickness="1" Margin="5" Padding="5" VerticalAlignment="Stretch">
+                    <TextBlock x:Name="txtBox3_4" TextWrapping="Wrap" Margin="5" TextAlignment="Justify"/>
+                </Border>
+            </Grid>
+            <Border BorderBrush="Black" BorderThickness="1" Margin="5" Padding="5" Height="Auto" VerticalAlignment="Bottom">
+                <TextBlock x:Name="txtBox3" TextWrapping="Wrap" Margin="5" TextAlignment="Justify"/>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
 </Page>
