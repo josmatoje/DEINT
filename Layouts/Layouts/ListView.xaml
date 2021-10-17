@@ -15,30 +15,7 @@
             <AppBarButton Icon="Download"/>
             <AppBarButton Icon="Find"/>
         </StackPanel>
-        <ListView x:Name="fernandos" RelativePanel.Below="icons" RelativePanel.AlignRightWith="icons" RelativePanel.AlignLeftWithPanel="True" RelativePanel.Above="arrows" ScrollViewer.IsVerticalScrollChainingEnabled="True" Padding="5" >
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-            <ListViewItem>Fernando Galiana</ListViewItem>
-        </ListView>
+        <ListView x:Name="fernandos" RelativePanel.Below="icons" RelativePanel.AlignRightWith="icons" RelativePanel.AlignLeftWithPanel="True" RelativePanel.Above="arrows" ScrollViewer.IsVerticalScrollChainingEnabled="True" DisplayMemberPath="Nombre" Padding="5" />
         <AppBarButton x:Name="add" Icon="Add" Label="Añadir" RelativePanel.AlignBottomWith="fernandos" RelativePanel.AlignRightWith="fernandos" Margin="5"/>
         <StackPanel x:Name="arrows" Orientation="Horizontal" HorizontalAlignment="Center" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWith="icons" RelativePanel.AlignLeftWithPanel="True">
             <AppBarButton Icon="Back"/>

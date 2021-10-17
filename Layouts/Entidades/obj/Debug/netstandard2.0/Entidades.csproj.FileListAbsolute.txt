@@ -7,3 +7,13 @@ D:\jmmata\DEINT\Layouts\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInf
 D:\jmmata\DEINT\Layouts\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
 D:\jmmata\DEINT\Layouts\Entidades\obj\Debug\netstandard2.0\Entidades.dll
 D:\jmmata\DEINT\Layouts\Entidades\obj\Debug\netstandard2.0\Entidades.pdb
+D:\GS DAM\Repositorios\DEINT\Layouts\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+D:\GS DAM\Repositorios\DEINT\Layouts\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+D:\GS DAM\Repositorios\DEINT\Layouts\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+D:\GS DAM\Repositorios\DEINT\Layouts\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.AssemblyReference.cache
+D:\GS DAM\Repositorios\DEINT\Layouts\Entidades\obj\Debug\netstandard2.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\GS DAM\Repositorios\DEINT\Layouts\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+D:\GS DAM\Repositorios\DEINT\Layouts\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+D:\GS DAM\Repositorios\DEINT\Layouts\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+D:\GS DAM\Repositorios\DEINT\Layouts\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+D:\GS DAM\Repositorios\DEINT\Layouts\Entidades\obj\Debug\netstandard2.0\Entidades.pdb

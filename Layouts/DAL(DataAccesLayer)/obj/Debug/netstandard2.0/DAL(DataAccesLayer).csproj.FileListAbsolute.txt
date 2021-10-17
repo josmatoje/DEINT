@@ -10,3 +10,15 @@ D:\jmmata\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAcc
 D:\jmmata\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).csproj.CopyComplete
 D:\jmmata\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).dll
 D:\jmmata\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).pdb
+D:\GS DAM\Repositorios\DEINT\Layouts\DAL(DataAccesLayer)\bin\Debug\netstandard2.0\DAL(DataAccesLayer).deps.json
+D:\GS DAM\Repositorios\DEINT\Layouts\DAL(DataAccesLayer)\bin\Debug\netstandard2.0\DAL(DataAccesLayer).dll
+D:\GS DAM\Repositorios\DEINT\Layouts\DAL(DataAccesLayer)\bin\Debug\netstandard2.0\DAL(DataAccesLayer).pdb
+D:\GS DAM\Repositorios\DEINT\Layouts\DAL(DataAccesLayer)\bin\Debug\netstandard2.0\Entidades.dll
+D:\GS DAM\Repositorios\DEINT\Layouts\DAL(DataAccesLayer)\bin\Debug\netstandard2.0\Entidades.pdb
+D:\GS DAM\Repositorios\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).csproj.AssemblyReference.cache
+D:\GS DAM\Repositorios\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).GeneratedMSBuildEditorConfig.editorconfig
+D:\GS DAM\Repositorios\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).AssemblyInfoInputs.cache
+D:\GS DAM\Repositorios\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).AssemblyInfo.cs
+D:\GS DAM\Repositorios\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).csproj.CoreCompileInputs.cache
+D:\GS DAM\Repositorios\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).dll
+D:\GS DAM\Repositorios\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).pdb
