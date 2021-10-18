@@ -136,3 +136,9 @@ D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\MultipleQualifiersPer
 D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\ProjectArchitectures.txt
 D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+D:\jmmata\DEINT\Layouts\Layouts\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
+D:\jmmata\DEINT\Layouts\Layouts\bin\x86\Debug\formulario.xbf
+D:\jmmata\DEINT\Layouts\Layouts\obj\x86\Debug\formulario.g.i.cs
+D:\jmmata\DEINT\Layouts\Layouts\obj\x86\Debug\formulario.g.cs
+D:\jmmata\DEINT\Layouts\Layouts\obj\x86\Debug\formulario.xaml
+D:\jmmata\DEINT\Layouts\Layouts\obj\x86\Debug\formulario.xbf

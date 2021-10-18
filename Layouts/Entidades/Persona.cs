@@ -6,6 +6,7 @@ namespace Entidades
     {
         #region atributos privados
         private String nombre;
+        private String apellidos;
         #endregion
         #region constructores
         public Persona()
@@ -15,6 +16,7 @@ namespace Entidades
         public Persona(String nombre)
         {
             this.nombre = nombre;
+            this.apellidos = "apellido";
         }
         #endregion
         #region propiedades publicas
@@ -22,6 +24,11 @@ namespace Entidades
         {
             get => nombre;
             set => nombre = value;
+        }
+        public String Apellidos
+        {
+            get => apellidos;
+            set => apellidos = value;
         }
         #endregion
 

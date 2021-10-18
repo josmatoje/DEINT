@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "O5vQZef65AnTLDEdEH54Iq0+UDEgU1Q1uPdirlppI29cmTCBTVmHIZ98NguooigcZmcrF3t9kTjSZVccD+Q5mA==",
+  "dgSpecHash": "NXzuL8Sf/A9fvszrmVWQsF0sElz0JMDHefAYN8KC3/ysBlLbKqLxMFEN5KkHsmAHSYGSje+I4ntuTVJEbo30hQ==",
   "success": true,
-  "projectFilePath": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Entidades\\Entidades.csproj",
+  "projectFilePath": "D:\\jmmata\\DEINT\\Layouts\\Entidades\\Entidades.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\josem\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\josem\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\jmmata\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jmmata\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

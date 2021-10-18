@@ -122,6 +122,9 @@
     <Compile Include="CuadritosColoridos.xaml.cs">
       <DependentUpon>CuadritosColoridos.xaml</DependentUpon>
     </Compile>
+    <Compile Include="formulario.xaml.cs">
+      <DependentUpon>formulario.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ListView.xaml.cs">
       <DependentUpon>ListView.xaml</DependentUpon>
     </Compile>
@@ -157,6 +160,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="CuadritosColoridos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="formulario.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

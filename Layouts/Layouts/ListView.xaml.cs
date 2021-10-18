@@ -29,7 +29,7 @@ namespace Layouts
         {
             this.InitializeComponent();
             List<Persona> gentes = clsListadoPersonasDAL.getListadoCompletoPersonas();
-            fernandos.ItemsSource = gentes;
+            lsvFernandos.ItemsSource = gentes;
             //fernandos.Children.Add(gentes);
 
         }
