@@ -10,13 +10,35 @@
 
     <StackPanel Orientation="Vertical">
         <StackPanel Orientation="Horizontal">
-            <AppBarButton Icon="Add"/>
+            <AppBarButton x:ConnectionId='12' Icon="Add"                           />
             <AppBarButton Icon="Save"/>
             <AppBarButton Icon="Delete"/>
         </StackPanel>
         <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <TextBlock x:ConnectionId='3' x:Name="Name_" Grid.Column="0" Grid.Row="0" Text="Nombre:" TextAlignment="Right" VerticalAlignment="Center" Margin="5"/>
+            <TextBlock x:ConnectionId='4' x:Name="LastName" Grid.Column="0" Grid.Row="1" Text="Apellido:" TextAlignment="Right" VerticalAlignment="Center" Margin="5"/>
+            <TextBlock x:ConnectionId='5' x:Name="Birthdate" Grid.Column="0" Grid.Row="2" Text="Fecha de nacimiento:" TextAlignment="Right" VerticalAlignment="Center" Margin="5"/>
 
+            <TextBox x:ConnectionId='6' x:Name="NameBox" Grid.Column="1" Grid.Row="0" Margin="10"/>
+            <TextBox x:ConnectionId='7' x:Name="LastNameBox" Grid.Column="1" Grid.Row="1" Margin="10"/>
+            <TextBox x:ConnectionId='8' x:Name="BirthdateBox" Grid.Column="1" Grid.Row="2" Margin="10"/>
+
+            <TextBlock x:ConnectionId='9' x:Name="NameError" Foreground="Red" Grid.Column="2" Grid.Row="0" TextAlignment="Left" VerticalAlignment="Center" />
+            <TextBlock x:ConnectionId='10' x:Name="LastNameError" Foreground="Red" Grid.Column="2" Grid.Row="1" TextAlignment="Left" VerticalAlignment="Center" />
+            <TextBlock x:ConnectionId='11' x:Name="BirthdateError" Foreground="Red" Grid.Column="2" Grid.Row="2" TextAlignment="Left" VerticalAlignment="Center" />
         </Grid>
+        <TextBlock x:ConnectionId='2' x:Name="Saved" Foreground="PaleGreen" Text="Los datos se han almacenado correctamente" Visibility="Collapsed" TextAlignment="Center"/>
     </StackPanel>
 </Page>
 

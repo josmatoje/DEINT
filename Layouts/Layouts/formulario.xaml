@@ -26,7 +26,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             
-            <TextBlock x:Name="Name" Grid.Column="0" Grid.Row="0" Text="Nombre:" TextAlignment="Right" VerticalAlignment="Center" Margin="5"/>
+            <TextBlock x:Name="Name_" Grid.Column="0" Grid.Row="0" Text="Nombre:" TextAlignment="Right" VerticalAlignment="Center" Margin="5"/>
             <TextBlock x:Name="LastName" Grid.Column="0" Grid.Row="1" Text="Apellido:" TextAlignment="Right" VerticalAlignment="Center" Margin="5"/>
             <TextBlock x:Name="Birthdate" Grid.Column="0" Grid.Row="2" Text="Fecha de nacimiento:" TextAlignment="Right" VerticalAlignment="Center" Margin="5"/>
 
@@ -38,6 +38,6 @@
             <TextBlock x:Name="LastNameError" Foreground="Red" Grid.Column="2" Grid.Row="1" TextAlignment="Left" VerticalAlignment="Center" />
             <TextBlock x:Name="BirthdateError" Foreground="Red" Grid.Column="2" Grid.Row="2" TextAlignment="Left" VerticalAlignment="Center" />
         </Grid>
-        <TextBlock x:Name="Saved" Foreground="PaleGreen" Text="Los datos se han almacenado correctamente" Visibility="Visible" TextAlignment="Center"/>
+        <TextBlock x:Name="Saved" Foreground="PaleGreen" Text="Los datos se han almacenado correctamente" Visibility="Collapsed" TextAlignment="Center"/>
     </StackPanel>
 </Page>
