@@ -83,7 +83,7 @@
         </ComboBox>
         <StackPanel Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Margin="50" >
             <Slider x:Name="sldrProgres" AutomationProperties.Name="Slider with ticks" TickFrequency="10" TickPlacement="BottomRight"/>
-            <ProgressBar Value="{Binding  ElementName=sldrProgres, Path=Value}" Width="200" Height="30" HorizontalAlignment="Right" Margin="30"/>
+            <ProgressBar Value="{Binding ElementName=sldrProgres, Path=Value}" Width="200" Height="30" HorizontalAlignment="Right" Margin="30"/>
         </StackPanel>
         <CalendarView Grid.Row="3" Grid.Column="0"/>
         <CalendarDatePicker Grid.Row="3" Grid.Column="1" />

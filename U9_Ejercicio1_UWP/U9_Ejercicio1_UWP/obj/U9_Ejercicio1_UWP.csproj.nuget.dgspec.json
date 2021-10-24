@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\jmmata\\DEINT\\U9_Ejercicio1_UWP\\U9_Ejercicio1_UWP\\U9_Ejercicio1_UWP.csproj": {}
+    "D:\\GS DAM\\Repositorios\\DEINT\\U9_Ejercicio1_UWP\\U9_Ejercicio1_UWP\\U9_Ejercicio1_UWP.csproj": {}
   },
   "projects": {
-    "D:\\jmmata\\DEINT\\U9_Ejercicio1_UWP\\U9_Ejercicio1_UWP\\U9_Ejercicio1_UWP.csproj": {
+    "D:\\GS DAM\\Repositorios\\DEINT\\U9_Ejercicio1_UWP\\U9_Ejercicio1_UWP\\U9_Ejercicio1_UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\jmmata\\DEINT\\U9_Ejercicio1_UWP\\U9_Ejercicio1_UWP\\U9_Ejercicio1_UWP.csproj",
+        "projectUniqueName": "D:\\GS DAM\\Repositorios\\DEINT\\U9_Ejercicio1_UWP\\U9_Ejercicio1_UWP\\U9_Ejercicio1_UWP.csproj",
         "projectName": "U9_Ejercicio1_UWP",
-        "projectPath": "D:\\jmmata\\DEINT\\U9_Ejercicio1_UWP\\U9_Ejercicio1_UWP\\U9_Ejercicio1_UWP.csproj",
-        "packagesPath": "C:\\Users\\jmmata\\.nuget\\packages\\",
-        "outputPath": "D:\\jmmata\\DEINT\\U9_Ejercicio1_UWP\\U9_Ejercicio1_UWP\\obj\\",
+        "projectPath": "D:\\GS DAM\\Repositorios\\DEINT\\U9_Ejercicio1_UWP\\U9_Ejercicio1_UWP\\U9_Ejercicio1_UWP.csproj",
+        "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
+        "outputPath": "D:\\GS DAM\\Repositorios\\DEINT\\U9_Ejercicio1_UWP\\U9_Ejercicio1_UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\jmmata\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\josem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

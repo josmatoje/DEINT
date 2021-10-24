@@ -22,3 +22,4 @@ D:\GS DAM\Repositorios\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.
 D:\GS DAM\Repositorios\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).csproj.CoreCompileInputs.cache
 D:\GS DAM\Repositorios\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).dll
 D:\GS DAM\Repositorios\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).pdb
+D:\GS DAM\Repositorios\DEINT\Layouts\DAL(DataAccesLayer)\obj\Debug\netstandard2.0\DAL(DataAccesLayer).csproj.CopyComplete

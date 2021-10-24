@@ -142,3 +142,9 @@ D:\jmmata\DEINT\Layouts\Layouts\obj\x86\Debug\formulario.g.i.cs
 D:\jmmata\DEINT\Layouts\Layouts\obj\x86\Debug\formulario.g.cs
 D:\jmmata\DEINT\Layouts\Layouts\obj\x86\Debug\formulario.xaml
 D:\jmmata\DEINT\Layouts\Layouts\obj\x86\Debug\formulario.xbf
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\bin\x86\Debug\formulario.xbf
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\formulario.g.i.cs
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\formulario.g.cs
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\formulario.xaml
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\formulario.xbf
+D:\GS DAM\Repositorios\DEINT\Layouts\Layouts\obj\x86\Debug\Layouts.csproj.CopyComplete
