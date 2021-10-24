@@ -8,16 +8,12 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <NavigationView x:Name="nvSample" >
+    <NavigationView x:Name="nvSample" PaneDisplayMode="Top" >
         <NavigationView.MenuItems>
-            <NavigationViewItem Content="La cosa uno Primera" Tag="samplePage1"/>
-            <NavigationViewItem Content="La cosa dos Segunda" Tag="samplePage2"/>
+            <NavigationViewItem Content="La cosa uno Primera" Tag="LaCosaPrimera"/>
+            <NavigationViewItem Content="La cosa dos Segunda" Tag="LaCosaSegunda"/>
             <Frame x:Name="contentFrame"/>
         </NavigationView.MenuItems>
-        <RelativePanel x:Name="samplePage1">
-            
-        </RelativePanel>
-        
     </NavigationView>
     
 </Page>
