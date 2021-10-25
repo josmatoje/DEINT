@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-QLOJ2ML</Machine>
-    <WindowsUser>josem</WindowsUser>
+    <Machine>107-04</Machine>
+    <WindowsUser>jmmata</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>cd2a6ade-6c52-4f32-9eae-45d7f5803e43</PackageIdentityName>
     <PackageIdentityPublisher>CN=jmmata</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\GS DAM\Repositorios\DEINT\U9_ej2_UWP\U9_ej2_UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\jmmata\DEINT\U9_ej2_UWP\U9_ej2_UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\GS DAM\Repositorios\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\jmmata\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>6163835E2692600664400A2D94D34AE92B91443820E5A15FA595FC777AC12FFF</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>cd2a6ade-6c52-4f32-9eae-45d7f5803e43_1.0.0.0_x86__k02g86z1an4cw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>cd2a6ade-6c52-4f32-9eae-45d7f5803e43_k02g86z1an4cw!App</RegisteredUserModeAppID>
@@ -27,148 +27,148 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\GS DAM\Repositorios\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\jmmata\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-24T18:16:07.589</Modified>
+      <Modified>2021-10-25T10:03:56.692</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\U9_ej2_UWP.exe">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\U9_ej2_UWP.exe">
       <PackagePath>entrypoint\U9_ej2_UWP.exe</PackagePath>
-      <Modified>2021-10-24T18:16:07.279</Modified>
+      <Modified>2021-10-25T10:03:50.688</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\josem\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\jmmata\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2020-02-27T19:16:04.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-18T16:36:56.000</Modified>
+      <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U9_ej2_UWP\U9_ej2_UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\U9_ej2_UWP\U9_ej2_UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-10-24T17:12:18.094</Modified>
+      <Modified>2021-10-22T10:23:37.718</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U9_ej2_UWP\U9_ej2_UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\U9_ej2_UWP\U9_ej2_UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-10-24T17:12:18.076</Modified>
+      <Modified>2020-09-17T10:59:15.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U9_ej2_UWP\U9_ej2_UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\U9_ej2_UWP\U9_ej2_UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-24T17:12:18.074</Modified>
+      <Modified>2020-09-17T10:59:15.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U9_ej2_UWP\U9_ej2_UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\U9_ej2_UWP\U9_ej2_UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-24T17:12:18.077</Modified>
+      <Modified>2020-09-17T10:59:15.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U9_ej2_UWP\U9_ej2_UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\U9_ej2_UWP\U9_ej2_UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-24T17:12:18.077</Modified>
+      <Modified>2020-09-17T10:59:15.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U9_ej2_UWP\U9_ej2_UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\U9_ej2_UWP\U9_ej2_UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-24T17:12:18.079</Modified>
+      <Modified>2020-09-17T10:59:15.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U9_ej2_UWP\U9_ej2_UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\U9_ej2_UWP\U9_ej2_UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-24T17:12:18.078</Modified>
+      <Modified>2020-09-17T10:59:15.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U9_ej2_UWP\U9_ej2_UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\U9_ej2_UWP\U9_ej2_UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-24T17:12:18.081</Modified>
+      <Modified>2020-09-17T10:59:15.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\U9_ej2_UWP.xr.xml">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\U9_ej2_UWP.xr.xml">
       <PackagePath>U9_ej2_UWP.xr.xml</PackagePath>
-      <Modified>2021-10-24T18:16:07.223</Modified>
+      <Modified>2021-10-25T06:18:27.972</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-10-24T18:16:07.234</Modified>
+      <Modified>2021-10-25T10:03:50.475</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\LaCosaPrimera.xbf">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\LaCosaPrimera.xbf">
       <PackagePath>LaCosaPrimera.xbf</PackagePath>
-      <Modified>2021-10-24T18:16:07.234</Modified>
+      <Modified>2021-10-25T10:03:50.489</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\LaCosaSegunda.xbf">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\LaCosaSegunda.xbf">
       <PackagePath>LaCosaSegunda.xbf</PackagePath>
-      <Modified>2021-10-24T18:16:07.234</Modified>
+      <Modified>2021-10-25T10:03:50.490</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-10-24T18:16:07.234</Modified>
+      <Modified>2021-10-25T10:03:50.492</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T15:33:42.000</Modified>
+      <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-10-24T18:08:03.926</Modified>
+      <Modified>2021-10-25T10:03:51.748</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\Core\U9_ej2_UWP.exe">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\U9_ej2_UWP\U9_ej2_UWP\bin\x86\Debug\Core\U9_ej2_UWP.exe">
       <PackagePath>U9_ej2_UWP.exe</PackagePath>
-      <Modified>2021-10-24T18:16:07.587</Modified>
+      <Modified>2021-10-25T10:03:56.588</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\josem\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\jmmata\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\josem\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\jmmata\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\josem\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\jmmata\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\josem\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\jmmata\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\josem\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\jmmata\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\josem\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\jmmata\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\josem\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\jmmata\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\josem\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\jmmata\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\josem\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\jmmata\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\josem\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\jmmata\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\josem\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\jmmata\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\josem\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\jmmata\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

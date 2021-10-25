@@ -1,1 +1,1 @@
-D:\GS DAM\Repositorios\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP.csproj;x86
+D:\jmmata\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP.csproj;x86

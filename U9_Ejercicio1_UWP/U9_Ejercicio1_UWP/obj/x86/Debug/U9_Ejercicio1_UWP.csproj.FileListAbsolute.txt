@@ -10,7 +10,6 @@ D:\jmmata\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\bin\x86\Debug\Core\U9_Ejerci
 D:\jmmata\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\bin\x86\Debug\U9_Ejercicio1_UWP.build.appxrecipe
 D:\jmmata\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\bin\x86\Debug\System.Runtime.dll
 D:\jmmata\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-D:\jmmata\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\obj\x86\Debug\U9_Ejercicio1_UWP.csprojAssemblyReference.cache
 D:\jmmata\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\obj\x86\Debug\App.g.i.cs
 D:\jmmata\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\obj\x86\Debug\App.g.cs
 D:\jmmata\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\obj\x86\Debug\MainPage.g.i.cs
@@ -22,7 +21,6 @@ D:\jmmata\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\obj\x86\Debug\App.xbf
 D:\jmmata\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\obj\x86\Debug\MainPage.xbf
 D:\jmmata\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\obj\x86\Debug\XamlSaveStateFile.xml
 D:\jmmata\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\obj\x86\Debug\U9_Ejercicio1_UWP.csproj.CoreCompileInputs.cache
-D:\jmmata\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\obj\x86\Debug\U9_Ejercicio1_UWP.csproj.CopyComplete
 D:\jmmata\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\obj\x86\Debug\U9_Ejercicio1_UWP.exe
 D:\jmmata\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\obj\x86\Debug\U9_Ejercicio1_UWP.pdb
 D:\jmmata\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\obj\x86\Debug\ResourceHandlingTask.state
@@ -88,3 +86,5 @@ D:\GS DAM\Repositorios\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\obj\x86\Debug\M
 D:\GS DAM\Repositorios\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\obj\x86\Debug\ProjectArchitectures.txt
 D:\GS DAM\Repositorios\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 D:\GS DAM\Repositorios\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+D:\jmmata\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\obj\x86\Debug\U9_Ejercicio1_UWP.csproj.AssemblyReference.cache
+D:\jmmata\DEINT\U9_Ejercicio1_UWP\U9_Ejercicio1_UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json

@@ -60,7 +60,7 @@
             </PivotItem>
         </Pivot>
         <TextBox Grid.Row="1" Grid.Column="2" Margin="20" AcceptsReturn="True" IsSpellCheckEnabled="True" MinHeight="20"/>
-        <PasswordBox Grid.Row="1" Grid.Column="3" Margin="20"  AutomationProperties.Name="Simple PasswordBox"/>
+        <PasswordBox Grid.Row="1" Grid.Column="3" Margin="20,107,20,106"  AutomationProperties.Name="Simple PasswordBox"/>
         <ListBox Grid.Row="2" Grid.Column="0" ScrollViewer.VerticalScrollBarVisibility="Auto" >
             <ListBoxItem Content="Green"/>
             <ListBoxItem Content="Blue"/>
@@ -85,7 +85,7 @@
             <Slider x:ConnectionId='2' x:Name="sldrProgres" AutomationProperties.Name="Slider with ticks" TickFrequency="10" TickPlacement="BottomRight"/>
             <ProgressBar Value="{Binding ElementName=sldrProgres, Path=Value}" Width="200" Height="30" HorizontalAlignment="Right" Margin="30"/>
         </StackPanel>
-        <CalendarView Grid.Row="3" Grid.Column="0"/>
+        <CalendarView Grid.Row="3" Grid.Column="0" Width="475"/>
         <CalendarDatePicker Grid.Row="3" Grid.Column="1" />
         <DatePicker Grid.Row="3" Grid.Column="2"/>
         <StackPanel Grid.Row="3" Grid.Column="3">
