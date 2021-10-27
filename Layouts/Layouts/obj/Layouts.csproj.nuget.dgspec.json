@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Layouts\\Layouts.csproj": {}
+    "D:\\jmmata\\DEINT\\Layouts\\Layouts\\Layouts.csproj": {}
   },
   "projects": {
-    "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\DAL(DataAccesLayer)\\DAL(DataAccesLayer).csproj": {
+    "D:\\jmmata\\DEINT\\Layouts\\DAL(DataAccesLayer)\\DAL(DataAccesLayer).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\DAL(DataAccesLayer)\\DAL(DataAccesLayer).csproj",
+        "projectUniqueName": "D:\\jmmata\\DEINT\\Layouts\\DAL(DataAccesLayer)\\DAL(DataAccesLayer).csproj",
         "projectName": "DAL(DataAccesLayer)",
-        "projectPath": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\DAL(DataAccesLayer)\\DAL(DataAccesLayer).csproj",
-        "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
-        "outputPath": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\DAL(DataAccesLayer)\\obj\\",
+        "projectPath": "D:\\jmmata\\DEINT\\Layouts\\DAL(DataAccesLayer)\\DAL(DataAccesLayer).csproj",
+        "packagesPath": "C:\\Users\\jmmata\\.nuget\\packages\\",
+        "outputPath": "D:\\jmmata\\DEINT\\Layouts\\DAL(DataAccesLayer)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\josem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jmmata\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -34,8 +34,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Entidades\\Entidades.csproj": {
-                "projectPath": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Entidades\\Entidades.csproj"
+              "D:\\jmmata\\DEINT\\Layouts\\Entidades\\Entidades.csproj": {
+                "projectPath": "D:\\jmmata\\DEINT\\Layouts\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -71,21 +71,21 @@
         }
       }
     },
-    "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Entidades\\Entidades.csproj": {
+    "D:\\jmmata\\DEINT\\Layouts\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "D:\\jmmata\\DEINT\\Layouts\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Entidades\\Entidades.csproj",
-        "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
-        "outputPath": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Entidades\\obj\\",
+        "projectPath": "D:\\jmmata\\DEINT\\Layouts\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\jmmata\\.nuget\\packages\\",
+        "outputPath": "D:\\jmmata\\DEINT\\Layouts\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\josem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jmmata\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -134,14 +134,14 @@
         }
       }
     },
-    "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Layouts\\Layouts.csproj": {
+    "D:\\jmmata\\DEINT\\Layouts\\Layouts\\Layouts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Layouts\\Layouts.csproj",
+        "projectUniqueName": "D:\\jmmata\\DEINT\\Layouts\\Layouts\\Layouts.csproj",
         "projectName": "Layouts",
-        "projectPath": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Layouts\\Layouts.csproj",
-        "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
-        "outputPath": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Layouts\\obj\\",
+        "projectPath": "D:\\jmmata\\DEINT\\Layouts\\Layouts\\Layouts.csproj",
+        "packagesPath": "C:\\Users\\jmmata\\.nuget\\packages\\",
+        "outputPath": "D:\\jmmata\\DEINT\\Layouts\\Layouts\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -150,7 +150,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\josem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jmmata\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -165,11 +165,11 @@
         "frameworks": {
           "uap10.0.17763": {
             "projectReferences": {
-              "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\DAL(DataAccesLayer)\\DAL(DataAccesLayer).csproj": {
-                "projectPath": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\DAL(DataAccesLayer)\\DAL(DataAccesLayer).csproj"
+              "D:\\jmmata\\DEINT\\Layouts\\DAL(DataAccesLayer)\\DAL(DataAccesLayer).csproj": {
+                "projectPath": "D:\\jmmata\\DEINT\\Layouts\\DAL(DataAccesLayer)\\DAL(DataAccesLayer).csproj"
               },
-              "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Entidades\\Entidades.csproj": {
-                "projectPath": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Entidades\\Entidades.csproj"
+              "D:\\jmmata\\DEINT\\Layouts\\Entidades\\Entidades.csproj": {
+                "projectPath": "D:\\jmmata\\DEINT\\Layouts\\Entidades\\Entidades.csproj"
               }
             }
           }

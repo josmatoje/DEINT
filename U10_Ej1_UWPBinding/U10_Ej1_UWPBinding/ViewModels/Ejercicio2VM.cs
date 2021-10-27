@@ -9,8 +9,15 @@ namespace U10_Ej1_UWPBinding.ViewModels
 {
     public class Ejercicio2VM
     {
-        private Persona person;
+        private Persona oPersona = new Persona("","");
 
-        public Persona Person { get => person; set => person = value; }
+        public bool visible { get; set; } //Propiedad para controlar el ViewModel
+        public Persona OPersona {
+            get { return oPersona;}
+            set { oPersona = value;} 
+        }
+
+
+        
     }
 }

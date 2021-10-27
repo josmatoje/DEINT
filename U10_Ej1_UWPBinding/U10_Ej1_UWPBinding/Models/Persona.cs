@@ -1,8 +1,10 @@
 ﻿using System;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace Entidades
 {
-    public class Persona
+    public class Persona : INotifyPropertyChanged
     {
         #region atributos privados
         private String nombre;
@@ -11,8 +13,8 @@ namespace Entidades
         #region constructores
         public Persona()
         {
-            this.nombre = "Jose Maria";
-            this.apellido = "Mata Ojeda";
+            nombre = "Jose Maria";
+            apellido = "Mata Ojeda";
         }
         public Persona(String nombre, String apellido)
         {
@@ -21,15 +23,38 @@ namespace Entidades
         }
         #endregion
         #region propiedades publicas
-        public String Nombre
-        {
-            get => nombre;
-            set => nombre = value;
+        //public String Nombre { get; set; }
+        public String Nombre {
+            get {
+                return nombre;
+            }
+            set {
+                if(value.Contains("n")|| (value.Contains("N")))
+                {
+                    apellido = "";
+                    NotifyPropertyChanged(Apellido);
+                }   
+                nombre = value;
+            }
         }
-        public String Apellido
+        //public String Apellido { get; set; }
+        public String Apellido {
+            get {
+                return apellido;
+            }
+            set {
+                if (value.Contains("n") || value.Contains("N"))
+                {   nombre = "";
+                    NotifyPropertyChanged(Nombre);
+                }
+                apellido = value;
+            }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        private void NotifyPropertyChanged([CallerMemberName] String propertyName = "")
         {
-            get => apellido;
-            set => apellido = value;
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
         #endregion
 

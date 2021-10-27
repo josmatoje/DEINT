@@ -196,25 +196,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\josem\\.nuget\\packages\\": {},
+    "C:\\Users\\jmmata\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\DAL(DataAccesLayer)\\DAL(DataAccesLayer).csproj",
+      "projectUniqueName": "D:\\jmmata\\DEINT\\Layouts\\DAL(DataAccesLayer)\\DAL(DataAccesLayer).csproj",
       "projectName": "DAL(DataAccesLayer)",
-      "projectPath": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\DAL(DataAccesLayer)\\DAL(DataAccesLayer).csproj",
-      "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
-      "outputPath": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\DAL(DataAccesLayer)\\obj\\",
+      "projectPath": "D:\\jmmata\\DEINT\\Layouts\\DAL(DataAccesLayer)\\DAL(DataAccesLayer).csproj",
+      "packagesPath": "C:\\Users\\jmmata\\.nuget\\packages\\",
+      "outputPath": "D:\\jmmata\\DEINT\\Layouts\\DAL(DataAccesLayer)\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\josem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jmmata\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -230,8 +230,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Entidades\\Entidades.csproj": {
-              "projectPath": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Entidades\\Entidades.csproj"
+            "D:\\jmmata\\DEINT\\Layouts\\Entidades\\Entidades.csproj": {
+              "projectPath": "D:\\jmmata\\DEINT\\Layouts\\Entidades\\Entidades.csproj"
             }
           }
         }

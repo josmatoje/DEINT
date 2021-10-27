@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Entidades\\Entidades.csproj": {}
+    "D:\\jmmata\\DEINT\\Layouts\\Entidades\\Entidades.csproj": {}
   },
   "projects": {
-    "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Entidades\\Entidades.csproj": {
+    "D:\\jmmata\\DEINT\\Layouts\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "D:\\jmmata\\DEINT\\Layouts\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Entidades\\Entidades.csproj",
-        "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
-        "outputPath": "D:\\GS DAM\\Repositorios\\DEINT\\Layouts\\Entidades\\obj\\",
+        "projectPath": "D:\\jmmata\\DEINT\\Layouts\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\jmmata\\.nuget\\packages\\",
+        "outputPath": "D:\\jmmata\\DEINT\\Layouts\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\josem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jmmata\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
