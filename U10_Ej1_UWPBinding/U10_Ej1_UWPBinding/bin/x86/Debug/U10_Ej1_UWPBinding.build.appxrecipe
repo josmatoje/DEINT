@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>107-04</Machine>
-    <WindowsUser>jmmata</WindowsUser>
+    <Machine>DESKTOP-QLOJ2ML</Machine>
+    <WindowsUser>josem</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>efe9b8eb-614b-4421-a81f-f892b0548849</PackageIdentityName>
     <PackageIdentityPublisher>CN=jmmata</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\bin\x86\Debug\U10_Ej1_UWPBinding.exe">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\bin\x86\Debug\U10_Ej1_UWPBinding.exe">
       <PackagePath>entrypoint\U10_Ej1_UWPBinding.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,55 +34,55 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\bin\x86\Debug\U10_Ej1_UWPBinding.xr.xml">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\bin\x86\Debug\U10_Ej1_UWPBinding.xr.xml">
       <PackagePath>U10_Ej1_UWPBinding.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\bin\x86\Debug\Views\Ejercicio2.xbf">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\bin\x86\Debug\Views\Ejercicio2.xbf">
       <PackagePath>Views\Ejercicio2.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\bin\x86\Debug\Views\MainPage.xbf">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\bin\x86\Debug\Core\U10_Ej1_UWPBinding.exe">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\bin\x86\Debug\Core\U10_Ej1_UWPBinding.exe">
       <PackagePath>U10_Ej1_UWPBinding.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
