@@ -119,14 +119,19 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\DAL\listadoPersona.cs" />
     <Compile Include="ViewModels\Ejercicio2VM.cs" />
+    <Compile Include="ViewModels\Ejercicio4VM.cs" />
     <Compile Include="Views\Ejercicio2.xaml.cs">
       <DependentUpon>Ejercicio2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Ejercicio4.xaml.cs">
+      <DependentUpon>Ejercicio4.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Models\Persona.cs" />
+    <Compile Include="Models\Entyties\Persona.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -150,6 +155,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="Views\Ejercicio2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Ejercicio4.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

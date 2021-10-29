@@ -1,1 +1,1 @@
-D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding.csproj;x86
+D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding.csproj;x86

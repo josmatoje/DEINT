@@ -2,21 +2,21 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace Entidades
+namespace U10_Ej1_UWPBinding.Models.Entyties
 {
-    public class Persona : INotifyPropertyChanged
+    public class clsPersona : INotifyPropertyChanged
     {
         #region atributos privados
         private String nombre;
         private String apellido;
         #endregion
         #region constructores
-        public Persona()
+        public clsPersona()
         {
             nombre = "Jose Maria";
             apellido = "Mata Ojeda";
         }
-        public Persona(String nombre, String apellido)
+        public clsPersona(String nombre, String apellido)
         {
             this.nombre = nombre;
             this.apellido = apellido;

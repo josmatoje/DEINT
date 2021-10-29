@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Solarizr_UWP_App.Views;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -26,5 +27,15 @@ namespace Solarizr_UWP_App
         {
             this.InitializeComponent();
         }
+
+        private void Enter_Click(object sender, RoutedEventArgs e)
+        {
+            if(userData.Equals("")|| passwordData.Equals(""){
+
+            }
+            Frame.Navigate(typeof(Citas));
+            
+        }
+
     }
 }

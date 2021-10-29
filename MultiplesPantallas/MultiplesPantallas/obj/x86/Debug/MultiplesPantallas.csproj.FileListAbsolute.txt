@@ -1,0 +1,13 @@
+D:\jmmata\DEINT\MultiplesPantallas\MultiplesPantallas\obj\x86\Debug\MultiplesPantallas.csproj.AssemblyReference.cache
+D:\jmmata\DEINT\MultiplesPantallas\MultiplesPantallas\obj\x86\Debug\App.g.i.cs
+D:\jmmata\DEINT\MultiplesPantallas\MultiplesPantallas\obj\x86\Debug\App.g.cs
+D:\jmmata\DEINT\MultiplesPantallas\MultiplesPantallas\obj\x86\Debug\Views\MainPage.g.i.cs
+D:\jmmata\DEINT\MultiplesPantallas\MultiplesPantallas\obj\x86\Debug\Views\MainPage.g.cs
+D:\jmmata\DEINT\MultiplesPantallas\MultiplesPantallas\obj\x86\Debug\Views\Page2.g.i.cs
+D:\jmmata\DEINT\MultiplesPantallas\MultiplesPantallas\obj\x86\Debug\Views\Page2.g.cs
+D:\jmmata\DEINT\MultiplesPantallas\MultiplesPantallas\obj\x86\Debug\App.xaml
+D:\jmmata\DEINT\MultiplesPantallas\MultiplesPantallas\obj\x86\Debug\Views\MainPage.xaml
+D:\jmmata\DEINT\MultiplesPantallas\MultiplesPantallas\obj\x86\Debug\Views\Page2.xaml
+D:\jmmata\DEINT\MultiplesPantallas\MultiplesPantallas\obj\x86\Debug\App.xbf
+D:\jmmata\DEINT\MultiplesPantallas\MultiplesPantallas\obj\x86\Debug\Views\MainPage.xbf
+D:\jmmata\DEINT\MultiplesPantallas\MultiplesPantallas\obj\x86\Debug\Views\Page2.xbf
