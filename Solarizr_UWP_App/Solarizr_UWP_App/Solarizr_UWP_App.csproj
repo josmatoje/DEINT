@@ -120,7 +120,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\clsCita.cs" />
-    <Compile Include="ViewModels\CitaVM.cs" />
+    <Compile Include="Models\ViewModels\CitaVM.cs" />
     <Compile Include="Views\Citas.xaml.cs">
       <DependentUpon>Citas.xaml</DependentUpon>
     </Compile>
