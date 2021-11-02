@@ -1,8 +1,8 @@
-﻿using Models.Entyties;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using U10_Ej1_UWPBinding.Models.Entyties;
 
 namespace U10_Ej1_UWPBinding.Models.DAL
 {

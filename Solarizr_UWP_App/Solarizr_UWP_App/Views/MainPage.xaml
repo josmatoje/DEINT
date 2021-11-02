@@ -6,30 +6,33 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="#B48C7A">
+    Background="#403232">
 
-    <RelativePanel HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Grid x:Name="tablilla" BorderBrush="Black" BorderThickness="1" CornerRadius="3"  Background="Gray">
+    <RelativePanel >
+        <Grid x:Name="tablilla" HorizontalAlignment="Stretch" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" 
+              Margin="100,150,100,0" BorderBrush="#707070" BorderThickness="2" CornerRadius="3" Background="White" Opacity="0.7">
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"/>
-                <RowDefinition Height="30" />
-                <RowDefinition Height="30"/>
+                <RowDefinition Height="40" />
+                <RowDefinition Height="40"/>
                 <RowDefinition Height="70"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition MinWidth="100"/>
-                <ColumnDefinition MinWidth="150"/>
+                <ColumnDefinition MinWidth="100" MaxWidth="300"/>
+                <ColumnDefinition MinWidth="100" MaxWidth="300"/>
             </Grid.ColumnDefinitions>
             <TextBlock Text="SOLARIZE" FontSize="20" FontFamily="Courier"  HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" Grid.ColumnSpan="2"/>
-            <TextBlock x:Name="user" Margin="5" Text="Usuario:" HorizontalAlignment="Right" Grid.Row="1" Grid.Column="0"/>
-            <TextBox x:Name="userData" Grid.Row="1" Grid.Column="1" Margin="5"/>
-            <TextBlock x:Name="password" Margin="5" Text="Contraaseña:" HorizontalAlignment="Right" Grid.Row="2" Grid.Column="0"/>
-            <TextBox x:Name="passwordData" Grid.Row="2" Grid.Column="1" Margin="5"/>
-            <Button x:Name="Enter" CornerRadius="10" Click="Enter_Click" BorderBrush="DarkGray" Background="DimGray" Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Center">Login</Button>
+            <TextBlock x:Name="user" Margin="8" Text="Usuario:" HorizontalAlignment="Right" Grid.Row="1" Grid.Column="0"/>
+            <TextBox x:Name="userData" Text="" Grid.Row="1" Grid.Column="1" Margin="8" Padding="0"/>
+            <TextBlock x:Name="password" Margin="8" Text="Contraseña:" HorizontalAlignment="Right" Grid.Row="2" Grid.Column="0"/>
+            <PasswordBox x:Name="passwordData" Password="" Grid.Row="2" Grid.Column="1" Margin="8" Padding="0"/>
+            <Button x:Name="Enter" CornerRadius="10" Click="Enter_Click" BorderBrush="#707070" Background="White" Grid.Row="3" Grid.ColumnSpan="2" 
+                    HorizontalAlignment="Center" >Login</Button>
         </Grid>
-        <StackPanel Background="IndianRed" RelativePanel.Below="tablilla" RelativePanel.AlignHorizontalCenterWith="tablilla" Margin="20">
-            <TextBlock x:Name="Alerta" Text="Error al iniciar sesion" FontSize="20" Foreground="Wheat" Margin="5" Visibility="Collapsed" />
+        <StackPanel Background="IndianRed" BorderBrush="Black" BorderThickness="1" CornerRadius="4" 
+                    RelativePanel.Below="tablilla" RelativePanel.AlignHorizontalCenterWith="tablilla" Margin="50,20">
+            <TextBlock x:Name="Alerta" Text="El usuario o la contraseña no son validos o no coinciden, intentelo de nuevo." FontSize="12" Foreground="Wheat" Margin="5" 
+                       Visibility="Collapsed" TextWrapping="Wrap" TextAlignment="Justify"/>
         </StackPanel>
-        
     </RelativePanel>
 </Page>

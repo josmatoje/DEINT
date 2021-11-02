@@ -30,10 +30,13 @@ namespace Solarizr_UWP_App
 
         private void Enter_Click(object sender, RoutedEventArgs e)
         {
-            if(userData.Equals("")|| passwordData.Equals(""){
-
+            if(userData.Text.Equals("")|| passwordData.Password.Equals("")){
+                Alerta.Visibility = Visibility.Visible;
             }
-            Frame.Navigate(typeof(Citas));
+            else
+            {
+                Frame.Navigate(typeof(Citas));
+            }
             
         }
 

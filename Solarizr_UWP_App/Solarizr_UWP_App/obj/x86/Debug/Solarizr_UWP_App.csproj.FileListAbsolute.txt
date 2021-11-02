@@ -1,5 +1,4 @@
 D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\App.xbf
-D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\MainPage.xbf
 D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Solarizr_UWP_App.xr.xml
 D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Solarizr_UWP_App.exe
 D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Solarizr_UWP_App.pdb
@@ -13,13 +12,9 @@ D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Mic
 D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Solarizr_UWP_App.csproj.AssemblyReference.cache
 D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\App.g.i.cs
 D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\App.g.cs
-D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\MainPage.g.i.cs
-D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\MainPage.g.cs
 D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\XamlTypeInfo.g.cs
 D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\App.xaml
-D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\MainPage.xaml
 D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\App.xbf
-D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\MainPage.xbf
 D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\XamlSaveStateFile.xml
 D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Solarizr_UWP_App.csproj.CoreCompileInputs.cache
 D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Solarizr_UWP_App.exe
@@ -86,3 +81,18 @@ D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\qualifiers.txt.i
 D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\ProjectArchitectures.txt
 D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424743200000000.json
+D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Views\Citas.xbf
+D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Views\MainPage.xbf
+D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Views\Citas.g.i.cs
+D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Views\Citas.g.cs
+D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Views\MainPage.g.i.cs
+D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Views\MainPage.g.cs
+D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Views\Citas.xaml
+D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Views\MainPage.xaml
+D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Views\Citas.xbf
+D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Views\MainPage.xbf
+D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Views\DetallesCita.xbf
+D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Views\DetallesCita.g.i.cs
+D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Views\DetallesCita.g.cs
+D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Views\DetallesCita.xaml
+D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Views\DetallesCita.xbf

@@ -12,6 +12,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Solarizr_UWP_App.ViewModels;
+using Solarizr_UWP_App.Models;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -25,6 +27,12 @@ namespace Solarizr_UWP_App.Views
         public Citas()
         {
             this.InitializeComponent();
+        }
+
+        private void listadoCitas_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            clsCita miCita = new clsCita() ; //Coger elemento de la lista real
+            Frame.Navigate(typeof(DetallesCita),miCita);
         }
     }
 }

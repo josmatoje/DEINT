@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\jmmata\\DEINT\\Solarizr_UWP_App\\Solarizr_UWP_App\\Solarizr_UWP_App.csproj": {}
+    "D:\\GS DAM\\Repositorios\\DEINT\\Solarizr_UWP_App\\Solarizr_UWP_App\\Solarizr_UWP_App.csproj": {}
   },
   "projects": {
-    "D:\\jmmata\\DEINT\\Solarizr_UWP_App\\Solarizr_UWP_App\\Solarizr_UWP_App.csproj": {
+    "D:\\GS DAM\\Repositorios\\DEINT\\Solarizr_UWP_App\\Solarizr_UWP_App\\Solarizr_UWP_App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\jmmata\\DEINT\\Solarizr_UWP_App\\Solarizr_UWP_App\\Solarizr_UWP_App.csproj",
+        "projectUniqueName": "D:\\GS DAM\\Repositorios\\DEINT\\Solarizr_UWP_App\\Solarizr_UWP_App\\Solarizr_UWP_App.csproj",
         "projectName": "Solarizr_UWP_App",
-        "projectPath": "D:\\jmmata\\DEINT\\Solarizr_UWP_App\\Solarizr_UWP_App\\Solarizr_UWP_App.csproj",
-        "packagesPath": "C:\\Users\\jmmata\\.nuget\\packages\\",
-        "outputPath": "D:\\jmmata\\DEINT\\Solarizr_UWP_App\\Solarizr_UWP_App\\obj\\",
+        "projectPath": "D:\\GS DAM\\Repositorios\\DEINT\\Solarizr_UWP_App\\Solarizr_UWP_App\\Solarizr_UWP_App.csproj",
+        "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
+        "outputPath": "D:\\GS DAM\\Repositorios\\DEINT\\Solarizr_UWP_App\\Solarizr_UWP_App\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -20,7 +20,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\jmmata\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\josem\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
