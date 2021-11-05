@@ -4,24 +4,29 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections.ObjectModel;
+using U10_Ej1_UWPBinding.Models.DAL;
 
 namespace U10_Ej1_UWPBinding.ViewModels
 {
     class Ejercicio4VM
     {
         #region atributos
-        private List<clsPersona> listaUsuarios;
-        private clsPersona usuario;
+        private ObservableCollection<clsPersona> oListaUsuarios;
+        private clsPersona oPersonaSeleccionadao;
 
-        public Ejercicio4VM(List<clsPersona> listaUsuarios, clsPersona usuario)
-        {
-            this.listaUsuarios = listaUsuarios;
-            this.usuario = usuario;
-        }
         #endregion
 
         #region constructores
-
+        public Ejercicio4VM()
+        {
+            oListaUsuarios = new ObservableCollection<clsPersona>(listadoPersona.getListadoPersona());
+        }
+        public Ejercicio4VM(ObservableCollection<clsPersona> listaUsuarios, clsPersona usuario)
+        {
+            this.oListaUsuarios = listaUsuarios;
+            this.oPersonaSeleccionadao = usuario;
+        }
         #endregion
 
         #region metodos publicos

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-QLOJ2ML</Machine>
-    <WindowsUser>josem</WindowsUser>
+    <Machine>107-04</Machine>
+    <WindowsUser>jmmata</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>3e5ded7a-d2aa-4068-a5f2-52d55b15257c</PackageIdentityName>
     <PackageIdentityPublisher>CN=jmmata</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>7E77383C1DC70792ED3C3EB6716BF8CCBF5020B22C28E1C46892A56B8244D9CA</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>3e5ded7a-d2aa-4068-a5f2-52d55b15257c_1.0.0.0_x86__k02g86z1an4cw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>3e5ded7a-d2aa-4068-a5f2-52d55b15257c_k02g86z1an4cw!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-01T20:54:49.297</Modified>
+      <Modified>2021-11-03T12:26:32.829</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Solarizr_UWP_App.exe">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Solarizr_UWP_App.exe">
       <PackagePath>entrypoint\Solarizr_UWP_App.exe</PackagePath>
-      <Modified>2021-11-01T20:54:48.960</Modified>
+      <Modified>2021-11-03T12:26:32.188</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,75 +46,75 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-02T02:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-10-27T15:14:20.281</Modified>
+      <Modified>2021-10-27T09:01:41.952</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-10-27T15:14:20.265</Modified>
+      <Modified>2021-10-25T07:00:29.166</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-27T15:14:20.265</Modified>
+      <Modified>2021-10-25T07:00:29.172</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-27T15:14:20.266</Modified>
+      <Modified>2021-10-25T07:00:29.174</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-27T15:14:20.265</Modified>
+      <Modified>2021-10-25T07:00:29.175</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-27T15:14:20.263</Modified>
+      <Modified>2021-10-25T07:00:29.176</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-27T15:14:20.268</Modified>
+      <Modified>2021-10-25T07:00:29.178</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-27T15:14:20.268</Modified>
+      <Modified>2021-10-25T07:00:29.180</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Solarizr_UWP_App.xr.xml">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Solarizr_UWP_App.xr.xml">
       <PackagePath>Solarizr_UWP_App.xr.xml</PackagePath>
-      <Modified>2021-11-01T20:22:35.942</Modified>
+      <Modified>2021-11-03T12:02:32.724</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-11-01T20:41:47.427</Modified>
+      <Modified>2021-11-03T12:26:32.095</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Views\Citas.xbf">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Views\Citas.xbf">
       <PackagePath>Views\Citas.xbf</PackagePath>
-      <Modified>2021-11-01T20:41:47.427</Modified>
+      <Modified>2021-11-03T12:26:32.096</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Views\DetallesCita.xbf">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Views\DetallesCita.xbf">
       <PackagePath>Views\DetallesCita.xbf</PackagePath>
-      <Modified>2021-11-01T20:41:47.427</Modified>
+      <Modified>2021-11-03T12:26:32.096</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Views\MainPage.xbf">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-11-01T20:41:47.427</Modified>
+      <Modified>2021-11-03T12:26:32.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2020-12-02T00:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-11-01T19:11:26.779</Modified>
+      <Modified>2021-11-03T12:02:33.641</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Core\Solarizr_UWP_App.exe">
+    <AppxPackagedFile Include="D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Core\Solarizr_UWP_App.exe">
       <PackagePath>Solarizr_UWP_App.exe</PackagePath>
-      <Modified>2021-11-01T20:54:49.295</Modified>
+      <Modified>2021-11-03T12:26:32.819</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

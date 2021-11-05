@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="Solarizr_UWP_App.Views.DetallesCita"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:cita="using:Solarizr_UWP_App.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#403232">
+    <Page.DataContext>
+        <cita:clsCita/>
+    </Page.DataContext>
+
+    <RelativePanel Padding="20">
+        <AppBarButton x:ConnectionId='2' x:Name="back" Icon="Back"                    Foreground="White" />
+        <StackPanel x:ConnectionId='3' x:Name="datosPrincipales" Orientation="Horizontal" Margin="10" RelativePanel.RightOf="back" RelativePanel.AlignBottomWith="back" RelativePanel.AlignRightWithPanel="True">
+            <TextBlock x:ConnectionId='7' x:Name="num" Text="Nº " Foreground="White" FontSize="20"/>
+            <TextBlock x:ConnectionId='8' x:Name="idCita" Text="{Binding IdCitas}" Foreground="White" FontSize="20" Margin="0,0,50,0"/>
+            <TextBlock x:ConnectionId='9' x:Name="nombreCita" Text="{Binding Direccion}"  Foreground="White" FontSize="20"/>
+        </StackPanel>
+        <Rectangle x:ConnectionId='4' x:Name="linea" Fill="White" Height="2" RelativePanel.Below="datosPrincipales" RelativePanel.AlignLeftWith="back" RelativePanel.AlignRightWith="datosPrincipales"/>
+        <Image x:ConnectionId='5' x:Name="mapa" Source="{Binding ImageLocation}" RelativePanel.Below="linea" Height="200" Margin="20"/>
+        <Button x:ConnectionId='6' x:Name="tramitar" Content="TRAMITAR PEDIDO" CornerRadius="5"                        Background="LightGray" 
+                RelativePanel.Below="mapa" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+        <RelativePanel>
+            <TextBlock />
+        </RelativePanel>
+
+    </RelativePanel>
+</Page>
+

@@ -97,3 +97,7 @@ D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\obj\x86\Debug
 D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\obj\x86\Debug\ProjectArchitectures.txt
 D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424743200000000.json
+D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\obj\x86\Debug\Views\Ejercicio4.g.i.cs
+D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\obj\x86\Debug\Views\Ejercicio4.g.cs
+D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\obj\x86\Debug\Views\Ejercicio4.xaml
+D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\obj\x86\Debug\Views\Ejercicio4.xbf

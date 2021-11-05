@@ -8,8 +8,15 @@ namespace U10_Ej1_UWPBinding.Models.DAL
 {
     public class listadoPersona
     {
-        //public List<clsPersona>{};
-        public List<clsPersona> getListadoPersona()
+        /// <summary>
+        /// prototipo: public List(clsPersona) getListadoPersona()
+        /// descripción:
+        /// precondiciones:
+        /// </summary>
+        /// <param> ninguno </param>
+        /// <returns> List(clsPersona) </returns>
+        /// postcondiciones:
+        public static List<clsPersona> getListadoPersona()
         {
             List<clsPersona> listado = new List<clsPersona>();
 

@@ -23,11 +23,40 @@ namespace Solarizr_UWP_App.Views
     /// </summary>
     public sealed partial class DetallesCita : Page
     {
+        #region atributos privados
         private clsCita cita;
+        #endregion
+        #region constructores
+        public DetallesCita()
+        {
+            this.InitializeComponent();
+        }
         public DetallesCita(clsCita cita)
         {
             this.cita = cita;
             this.InitializeComponent();
+        }
+        #endregion
+        #region metodos publicos
+        /// <summary>
+        /// cabecera: protected override void OnNavigatedTo(NavigationEventArgs e)
+        /// descripción: deberia de ayudarme a pasar un objeto desde el navigate view anterior
+        /// precondiciones
+        /// </summary>
+        /// <param name="e"></param>
+        /// <return> nada </return>
+        /// postcondiciones:                                                                                                                                                                                                                                                                    
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            if (e.Parameter is string && !string.IsNullOrWhiteSpace((string)e.Parameter))
+            {
+                //greeting.Text = $"Hi, {e.Parameter.ToString()}";
+            }
+            else
+            {
+                //greeting.Text = "Hi!";
+            }
+            base.OnNavigatedTo(e);
         }
 
         private void back_Click(object sender, RoutedEventArgs e)
@@ -39,5 +68,6 @@ namespace Solarizr_UWP_App.Views
         {
 
         }
+        #endregion
     }
 }

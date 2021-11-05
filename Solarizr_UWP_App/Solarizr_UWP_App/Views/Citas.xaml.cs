@@ -31,8 +31,12 @@ namespace Solarizr_UWP_App.Views
 
         private void listadoCitas_ItemClick(object sender, ItemClickEventArgs e)
         {
-            clsCita miCita = new clsCita() ; //Coger elemento de la lista real
-            Frame.Navigate(typeof(DetallesCita),miCita);
+            //GridView citaSeleccionada = new GridView();
+            //citaSeleccionada = (GridView)sender;
+
+            clsCita miCita = (clsCita)e.ClickedItem; //Coger elemento de la lista real
+
+            Frame.Navigate(typeof(DetallesCita),miCita);//
         }
     }
 }
