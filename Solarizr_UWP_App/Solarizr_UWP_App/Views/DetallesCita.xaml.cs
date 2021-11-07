@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
@@ -48,14 +49,18 @@ namespace Solarizr_UWP_App.Views
         /// postcondiciones:                                                                                                                                                                                                                                                                    
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            if (e.Parameter is string && !string.IsNullOrWhiteSpace((string)e.Parameter))
-            {
-                //greeting.Text = $"Hi, {e.Parameter.ToString()}";
-            }
-            else
-            {
-                //greeting.Text = "Hi!";
-            }
+            idCita.Text = ((clsCita)e.Parameter).IdCita;
+            nombreCita.Text = ((clsCita)e.Parameter).Direccion;
+            mapa.Source = new BitmapImage(new Uri(((clsCita)e.Parameter).ImageLocation));
+            nombre.Text = $"Nombre: {((clsCita)e.Parameter).NombreCliente}";
+            apellido.Text = $"Apellido: {((clsCita)e.Parameter).ApellidoCliente}";
+            direccion.Text = $"Dirección: {((clsCita)e.Parameter).Direccion}";
+            telefono.Text = $"Telefono: {((clsCita) e.Parameter).Telefono}";
+            email.Text = $"e-mail: {((clsCita)e.Parameter).Email}";
+            fecha.Text = $"Fecha: {((clsCita)e.Parameter).Fecha()}";
+            hora.Text = $"Hora: {((clsCita)e.Parameter).Hora()}";
+            observaciones.Text = ((clsCita)e.Parameter).Observaciones;
+
             base.OnNavigatedTo(e);
         }
 
@@ -66,8 +71,20 @@ namespace Solarizr_UWP_App.Views
 
         private void tramitar_Click(object sender, RoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(Citas));
         }
         #endregion
+
+        private void add_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void confirmar_Click(object sender, RoutedEventArgs e)
+        {
+            //Almacenar datos
+            guardado.Visibility = Visibility.Visible;
+            
+        }
     }
 }

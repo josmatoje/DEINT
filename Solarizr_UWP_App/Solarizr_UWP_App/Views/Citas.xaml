@@ -14,22 +14,22 @@
 
     <RelativePanel>
         <TextBlock x:Name="title" Text="ENCARGOS" FontSize="20"  RelativePanel.AlignHorizontalCenterWithPanel="True" Foreground="White" Margin="20,20,20,0"/>
-        <GridView x:Name="listadoCitas" ItemsSource="{Binding ListadoCitas}" BorderBrush="White" BorderThickness="1" Margin="20" ItemClick="listadoCitas_ItemClick" IsItemClickEnabled="True"
+        <ListView x:Name="listadoCitas" ItemsSource="{Binding ListadoCitas}" BorderBrush="White" BorderThickness="1" Margin="20" ItemClick="listadoCitas_ItemClick" IsItemClickEnabled="True"
                   RelativePanel.Below="title" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True">
-            <GridView.ItemTemplate>
+            <ListView.ItemTemplate>
                 <DataTemplate x:Name="CitaTemplate" x:DataType="mv:CitaVM">
                     <RelativePanel CornerRadius="20" Background="White" Margin="10" MinWidth="350" Height="50" >
                         <TextBlock x:Name="direccion" Text="{Binding Direccion}" RelativePanel.AlignVerticalCenterWithPanel="True" Margin="20,0" VerticalAlignment="Center"
                                    Width="200" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignBottomWithPanel="True"/>
-                        <TextBlock x:Name="distancia" Text="4.8 Km" RelativePanel.AlignVerticalCenterWith="direccion" RelativePanel.AlignRightWithPanel="True"  Margin="20,0"/>
-                        </RelativePanel>
+                        <TextBlock x:Name="distancia" Text="4.8 Km" Margin="20,0" RelativePanel.AlignVerticalCenterWith="direccion" RelativePanel.AlignRightWithPanel="True" />
+                    </RelativePanel>
                 </DataTemplate>
-            </GridView.ItemTemplate>
-            <GridView.ItemsPanel>
+            </ListView.ItemTemplate>
+            <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <ItemsStackPanel Orientation="Vertical"/>
+                    <ItemsStackPanel Orientation="Vertical" HorizontalAlignment="Center"/>
                 </ItemsPanelTemplate>
-            </GridView.ItemsPanel>
-        </GridView>
+            </ListView.ItemsPanel>
+        </ListView>
     </RelativePanel>
 </Page>

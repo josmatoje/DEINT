@@ -101,3 +101,8 @@ D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\obj\x86\Debug\Views\Ejerci
 D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\obj\x86\Debug\Views\Ejercicio4.g.cs
 D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\obj\x86\Debug\Views\Ejercicio4.xaml
 D:\jmmata\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\obj\x86\Debug\Views\Ejercicio4.xbf
+D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\bin\x86\Debug\U10_Ej1_UWPBinding.XML
+D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\obj\x86\Debug\Views\Ejercicio4.g.i.cs
+D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\obj\x86\Debug\Views\Ejercicio4.g.cs
+D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\obj\x86\Debug\Views\Ejercicio4.xaml
+D:\GS DAM\Repositorios\DEINT\U10_Ej1_UWPBinding\U10_Ej1_UWPBinding\obj\x86\Debug\Views\Ejercicio4.xbf

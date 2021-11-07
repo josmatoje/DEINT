@@ -9,6 +9,9 @@ namespace U10_Ej1_UWPBinding.Models.Entyties
         #region atributos privados
         private String nombre;
         private String apellido;
+        private String fechaNacimiento;
+        private String direccion;
+        private String telefono;
         #endregion
         #region constructores
         public clsPersona()
@@ -50,6 +53,10 @@ namespace U10_Ej1_UWPBinding.Models.Entyties
                 apellido = value;
             }
         }
+
+        public String FechaNacimiento { get => fechaNacimiento; set => fechaNacimiento = value; }
+        public String Direccion { get => direccion; set => direccion = value; }
+        public String Telefono { get => telefono; set => telefono = value; }
 
         public event PropertyChangedEventHandler PropertyChanged;
         private void NotifyPropertyChanged([CallerMemberName] String propertyName = "")

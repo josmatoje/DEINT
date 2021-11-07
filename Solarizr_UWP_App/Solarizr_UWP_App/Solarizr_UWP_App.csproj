@@ -121,6 +121,9 @@
     </Compile>
     <Compile Include="Models\clsCita.cs" />
     <Compile Include="Models\ViewModels\CitaVM.cs" />
+    <Compile Include="Views\AnhadirImagen.xaml.cs">
+      <DependentUpon>AnhadirImagen.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Citas.xaml.cs">
       <DependentUpon>Citas.xaml</DependentUpon>
     </Compile>
@@ -138,6 +141,7 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Images\mapa.jpeg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -152,6 +156,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Views\AnhadirImagen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Citas.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
