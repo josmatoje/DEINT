@@ -120,6 +120,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\clsCita.cs" />
+    <Compile Include="Models\ViewModels\AnhadirImagenVM.cs" />
     <Compile Include="Models\ViewModels\CitaVM.cs" />
     <Compile Include="Views\AnhadirImagen.xaml.cs">
       <DependentUpon>AnhadirImagen.xaml</DependentUpon>

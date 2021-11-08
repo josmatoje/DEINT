@@ -1,1 +1,1 @@
-D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\Solarizr_UWP_App.csproj;x86
+D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\Solarizr_UWP_App.csproj;x86

@@ -45,8 +45,30 @@ namespace Solarizr_UWP_App.Models
         public string Observaciones { get => observaciones; set => observaciones = value; }
         #endregion
         #region metodos publicos
-        public void atrasaCita(int dias) { FechaDateTime = FechaDateTime.AddDays(dias); }
+        /// <summary>
+        /// cabecera: public void anhadeDias(int dias)
+        /// descripción: anhade la cantidad de dias pasados por parametros a la fecha de la cita
+        /// precondiciones: ninguna
+        /// </summary>
+        /// <param name="dias"> numero de dias que se desea atrasar </param>
+        /// <return> nada </return>
+        /// postcondiciones: ninguna
+        public void anhadeDias(int dias) { FechaDateTime = FechaDateTime.AddDays(dias); }
+        /// <summary>
+        /// cabecera: public string Fecha()
+        /// descripción: devuelve la fecha de la cita en formato dia/mes/año
+        /// precondiciones: ninguna
+        /// </summary>
+        /// <return> una cadena con la fecha </return>
+        /// postcondiciones: ninguna
         public string Fecha() { return $"{FechaDateTime.Day}/{FechaDateTime.Month}/{FechaDateTime.Year}"; }
+        /// <summary>
+        /// cabecera: public string Hora() {
+        /// descripción: devuelve la hora de la cita en formato horas:minutos
+        /// precondiciones: ninguna
+        /// </summary>
+        /// <return> una cadena con la hora </return>
+        /// postcondiciones: los minutos siempre tienen dos digitos, en caso de ser por ejemplo 1 devuelve 01 minutos
         public string Hora() {
             var minutos = FechaDateTime.Minute > 9 ? $"{FechaDateTime.Minute}" : $"0{FechaDateTime.Minute}";
             return $"{FechaDateTime.Hour}:{minutos}"; 

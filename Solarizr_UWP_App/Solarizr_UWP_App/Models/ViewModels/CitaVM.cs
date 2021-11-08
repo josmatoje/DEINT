@@ -19,7 +19,10 @@ namespace Solarizr_UWP_App.ViewModels
             ListadoCitas = new ObservableCollection<clsCita>();
             for (int i = 0; i < 20; i++)
             {
-                ListadoCitas.Add(new clsCita());
+                clsCita cita = new clsCita();
+                cita.anhadeDias(i);
+                ListadoCitas.Add(cita);
+
             }
         }
         public CitaVM(int numCitas)
@@ -27,11 +30,14 @@ namespace Solarizr_UWP_App.ViewModels
             this.listadoCitas = new ObservableCollection<clsCita>();
             for (int i = 0; i < numCitas; i++)
             {
-                this.listadoCitas.Add(new clsCita());
+                clsCita cita = new clsCita();
+                cita.anhadeDias(i);
+                this.listadoCitas.Add(cita);
             }
         }
         #endregion
         #region propiedades publicas
+
         public ObservableCollection<clsCita> ListadoCitas { get { return listadoCitas; } set => listadoCitas = value; }
         #endregion
     }

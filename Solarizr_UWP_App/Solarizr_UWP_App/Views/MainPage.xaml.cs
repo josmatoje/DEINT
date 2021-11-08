@@ -27,16 +27,25 @@ namespace Solarizr_UWP_App
         {
             this.InitializeComponent();
         }
-
+        /// <summary>
+        /// cabecera: private void Enter_Click(object sender, RoutedEventArgs e)
+        /// descripción: comprueba que existe un usuario y una contraseña y en caso afirmativo avanza a la vista de citas, en caso contrario muestra un mensaje de error
+        /// precondiciones: ninguna
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        /// <return> nada </return>
+        /// postcondiciones: ninguna
         private void Enter_Click(object sender, RoutedEventArgs e)
         {
-            //if(userData.Text.Equals("")|| passwordData.Password.Equals("")){
-            //    Alerta.Visibility = Visibility.Visible;
-            //}
-            //else
-            //{
+            if (userData.Text.Equals("") || passwordData.Password.Equals(""))
+            {
+                Alerta.Visibility = Visibility.Visible;
+            }
+            else
+            {
                 Frame.Navigate(typeof(Citas));
-            //}
+            }
             
         }
 

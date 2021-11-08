@@ -8,10 +8,9 @@
     <RootType FullName="Windows.UI.Xaml.Application" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
-      <RootProperty Name="DataContext" />
       <RootProperty Name="Content" />
+      <RootProperty Name="DataContext" />
     </RootType>
-    <RootType FullName="Solarizr_UWP_App.Models.clsCita" />
     <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
       <RootProperty Name="Children" />
       <RootProperty Name="CornerRadius" />
@@ -20,6 +19,8 @@
       <RootProperty Name="MinWidth" />
       <RootProperty Name="Height" />
       <RootProperty Name="Padding" />
+      <RootMethod Name="GetAlignVerticalCenterWithPanel" />
+      <RootMethod Name="SetAlignVerticalCenterWithPanel" />
       <RootMethod Name="GetAlignHorizontalCenterWithPanel" />
       <RootMethod Name="SetAlignHorizontalCenterWithPanel" />
       <RootMethod Name="GetBelow" />
@@ -30,8 +31,6 @@
       <RootMethod Name="SetAlignLeftWithPanel" />
       <RootMethod Name="GetAlignRightWithPanel" />
       <RootMethod Name="SetAlignRightWithPanel" />
-      <RootMethod Name="GetAlignVerticalCenterWithPanel" />
-      <RootMethod Name="SetAlignVerticalCenterWithPanel" />
       <RootMethod Name="GetAlignTopWithPanel" />
       <RootMethod Name="SetAlignTopWithPanel" />
       <RootMethod Name="GetAlignVerticalCenterWith" />
@@ -49,12 +48,10 @@
       <RootMethod Name="GetAlignHorizontalCenterWith" />
       <RootMethod Name="SetAlignHorizontalCenterWith" />
     </RootType>
-    <RootType FullName="Solarizr_UWP_App.Views.AnhadirImagen" />
-    <RootType FullName="Solarizr_UWP_App.ViewModels.CitaVM" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
-      <RootProperty Name="FontSize" />
       <RootProperty Name="Foreground" />
+      <RootProperty Name="FontSize" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
@@ -64,6 +61,8 @@
       <RootProperty Name="FontFamily" />
       <RootProperty Name="HorizontalAlignment" />
     </RootType>
+    <RootType FullName="Solarizr_UWP_App.Views.AnhadirImagen" />
+    <RootType FullName="Solarizr_UWP_App.ViewModels.CitaVM" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="BorderBrush" />
@@ -86,6 +85,7 @@
       <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="Solarizr_UWP_App.Views.Citas" />
+    <RootType FullName="Solarizr_UWP_App.Models.clsCita" />
     <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
       <RootProperty Name="Icon" />
       <RootProperty Name="Foreground" />

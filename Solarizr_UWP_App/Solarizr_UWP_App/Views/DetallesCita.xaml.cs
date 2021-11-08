@@ -42,9 +42,9 @@ namespace Solarizr_UWP_App.Views
         /// <summary>
         /// cabecera: protected override void OnNavigatedTo(NavigationEventArgs e)
         /// descripción: deberia de ayudarme a pasar un objeto desde el navigate view anterior
-        /// precondiciones
+        /// precondiciones:
         /// </summary>
-        /// <param name="e"></param>
+        /// <param name="e"> clsCita proveniente de la vista anterior</param>
         /// <return> nada </return>
         /// postcondiciones:                                                                                                                                                                                                                                                                    
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -75,11 +75,28 @@ namespace Solarizr_UWP_App.Views
         }
         #endregion
 
+        /// <summary>
+        /// cabecera: private void add_Click(object sender, RoutedEventArgs e)
+        /// descripción: lleva a la vista de añadir imagenes
+        /// precondiciones: ninguna
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        /// <return> nada </return>
+        /// postcondiciones: ninguna
         private void add_Click(object sender, RoutedEventArgs e)
         {
 
         }
-
+        /// <summary>
+        /// cabecera: private void confirmar_Click(object sender, RoutedEventArgs e)
+        /// descripción: guarda las modificaciones de las observaciones y muestra un mensaje de guardado
+        /// precondiciones: ninguna
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        /// <return> nada </return>
+        /// postcondiciones: ninguna
         private void confirmar_Click(object sender, RoutedEventArgs e)
         {
             //Almacenar datos
