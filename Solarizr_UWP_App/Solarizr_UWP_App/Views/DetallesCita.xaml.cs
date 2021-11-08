@@ -86,5 +86,6 @@ namespace Solarizr_UWP_App.Views
             guardado.Visibility = Visibility.Visible;
             
         }
+
     }
 }

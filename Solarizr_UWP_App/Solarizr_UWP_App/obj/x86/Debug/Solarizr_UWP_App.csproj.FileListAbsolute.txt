@@ -106,3 +106,8 @@ D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Views\MainPage.x
 D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Views\Citas.xbf
 D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Views\DetallesCita.xbf
 D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Views\MainPage.xbf
+D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Views\AnhadirImagen.g.i.cs
+D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Views\AnhadirImagen.g.cs
+D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Views\AnhadirImagen.xaml
+D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Views\AnhadirImagen.xbf
+D:\jmmata\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Views\AnhadirImagen.xbf

@@ -11,18 +11,15 @@
       <RootProperty Name="DataContext" />
       <RootProperty Name="Content" />
     </RootType>
-    <RootType FullName="Solarizr_UWP_App.ViewModels.CitaVM" />
+    <RootType FullName="Solarizr_UWP_App.Models.clsCita" />
     <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
       <RootProperty Name="Children" />
       <RootProperty Name="CornerRadius" />
       <RootProperty Name="Background" />
       <RootProperty Name="Margin" />
       <RootProperty Name="MinWidth" />
-      <RootProperty Name="MaxWidth" />
       <RootProperty Name="Height" />
       <RootProperty Name="Padding" />
-      <RootProperty Name="BorderBrush" />
-      <RootProperty Name="BorderThickness" />
       <RootMethod Name="GetAlignHorizontalCenterWithPanel" />
       <RootMethod Name="SetAlignHorizontalCenterWithPanel" />
       <RootMethod Name="GetBelow" />
@@ -52,6 +49,8 @@
       <RootMethod Name="GetAlignHorizontalCenterWith" />
       <RootMethod Name="SetAlignHorizontalCenterWith" />
     </RootType>
+    <RootType FullName="Solarizr_UWP_App.Views.AnhadirImagen" />
+    <RootType FullName="Solarizr_UWP_App.ViewModels.CitaVM" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
       <RootProperty Name="FontSize" />
@@ -87,7 +86,6 @@
       <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="Solarizr_UWP_App.Views.Citas" />
-    <RootType FullName="Solarizr_UWP_App.Models.clsCita" />
     <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
       <RootProperty Name="Icon" />
       <RootProperty Name="Foreground" />
@@ -116,11 +114,18 @@
       <RootProperty Name="Content" />
       <RootProperty Name="CornerRadius" />
       <RootProperty Name="Background" />
-      <RootProperty Name="FontSize" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="FontSize" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="HorizontalAlignment" />
       <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Background" />
@@ -129,6 +134,11 @@
       <RootProperty Name="Text" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Padding" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="FontSize" />
     </RootType>
     <RootType FullName="Solarizr_UWP_App.Views.DetallesCita" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">

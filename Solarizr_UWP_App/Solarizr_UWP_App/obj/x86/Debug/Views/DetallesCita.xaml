@@ -1,0 +1,53 @@
+﻿<Page
+    x:Class="Solarizr_UWP_App.Views.DetallesCita"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:cita="using:Solarizr_UWP_App.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#403232">
+    <Page.DataContext>
+        <cita:clsCita/>
+    </Page.DataContext>
+
+    <RelativePanel Padding="20">
+        <AppBarButton x:ConnectionId='2' x:Name="back" Icon="Back"                    Foreground="White" />
+        <StackPanel x:ConnectionId='3' x:Name="datosPrincipales" Orientation="Horizontal" Margin="10" RelativePanel.RightOf="back" RelativePanel.AlignBottomWith="back" RelativePanel.AlignRightWithPanel="True">
+            <TextBlock x:ConnectionId='25' x:Name="num" Text="Nº " Foreground="White" FontSize="20"/>
+            <TextBlock x:ConnectionId='26' x:Name="idCita" Foreground="White" FontSize="20" Margin="0,0,50,0"/>
+            <TextBlock x:ConnectionId='27' x:Name="nombreCita" Foreground="White" FontSize="20"/>
+        </StackPanel>
+        <Rectangle x:ConnectionId='4' x:Name="linea" Fill="White" Height="2" RelativePanel.Below="datosPrincipales" RelativePanel.AlignLeftWith="back" RelativePanel.AlignRightWith="datosPrincipales"/>
+        <Image x:ConnectionId='5' x:Name="mapa"  RelativePanel.Below="linea" Height="200" RelativePanel.AlignLeftWith="linea" RelativePanel.AlignRightWith="linea" Margin="10"/>
+        <Button x:ConnectionId='6' x:Name="tramitar" Content="TRAMITAR PEDIDO" CornerRadius="5"                        Background="LightGray" Margin="5"
+                RelativePanel.Below="mapa" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+        
+        <StackPanel x:ConnectionId='7' x:Name="checks" Orientation="Horizontal" RelativePanel.Below="tramitar" RelativePanel.AlignHorizontalCenterWithPanel="True">
+            <RadioButton x:ConnectionId='23' x:Name="aceptar" Foreground="White" Content="Aceptar" FontSize="12" />
+            <RadioButton x:ConnectionId='24' x:Name="rechazar" Foreground="White" Content="Rechazar" FontSize="12"/>
+        </StackPanel>
+        <ScrollViewer x:ConnectionId='8' x:Name="principal" RelativePanel.Below="checks" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True"  Margin="20,10" Padding="10" BorderBrush="White" BorderThickness="1">
+            
+            <RelativePanel>
+                <TextBlock x:ConnectionId='9' x:Name="nombre" Foreground="White" FontSize="12" />
+                <TextBlock x:ConnectionId='10' x:Name="apellido" Foreground="White" FontSize="12" RelativePanel.Below="nombre"/>
+                <TextBlock x:ConnectionId='11' x:Name="direccion" Foreground="White" FontSize="12" RelativePanel.Below="apellido"/>
+                <TextBlock x:ConnectionId='12' x:Name="telefono" Foreground="White" FontSize="12" RelativePanel.Below="direccion"/>
+                <TextBlock x:ConnectionId='13' x:Name="email" Foreground="White" FontSize="12" RelativePanel.Below="telefono"/>
+                <TextBlock x:ConnectionId='14' x:Name="fecha" Foreground="White" FontSize="12" RelativePanel.Below="email"/>
+                <TextBlock x:ConnectionId='15' x:Name="hora" Foreground="White" FontSize="12" RelativePanel.Below="fecha"/>
+                <TextBlock x:ConnectionId='16' x:Name="obsertext" Text="Observaciones: " Foreground="White" FontSize="12" RelativePanel.Below="hora" Margin="0,20,0,5"/>
+                <TextBox x:ConnectionId='17' x:Name="observaciones" Background="White" FontSize="12" MinHeight="100" RelativePanel.Below="obsertext" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.Above="bloqueImagen"/>
+                <Button x:ConnectionId='18' x:Name="confirmar" FontSize="10" Content="Guardar" Background="White" RelativePanel.Below="observaciones" RelativePanel.AlignRightWith="observaciones" Margin="5"                        />
+                <TextBlock x:ConnectionId='19' x:Name="guardado" Text="Cambios guardados" Foreground="Green" RelativePanel.Below="confirmar" RelativePanel.AlignRightWith="confirmar" Visibility="Collapsed"/>
+                <RelativePanel x:ConnectionId='20' x:Name="bloqueImagen" RelativePanel.AlignBottomWithPanel="True">
+                    <TextBlock x:ConnectionId='21' x:Name="fotostext" Text="Fotos: : " Foreground="White" FontSize="12" Margin="0,5,0,5"/>
+                    <AppBarButton x:ConnectionId='22' x:Name="add" Icon="Add" RelativePanel.Below="fotostext" RelativePanel.RightOf="fotostext" RelativePanel.AlignBottomWithPanel="True"  Height="40" Width="40"/>
+                </RelativePanel>
+            </RelativePanel>
+        </ScrollViewer>
+
+    </RelativePanel>
+</Page>
+

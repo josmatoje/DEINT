@@ -20,25 +20,33 @@
         </StackPanel>
         <Rectangle x:Name="linea" Fill="White" Height="2" RelativePanel.Below="datosPrincipales" RelativePanel.AlignLeftWith="back" RelativePanel.AlignRightWith="datosPrincipales"/>
         <Image x:Name="mapa"  RelativePanel.Below="linea" Height="200" RelativePanel.AlignLeftWith="linea" RelativePanel.AlignRightWith="linea" Margin="10"/>
-        <Button x:Name="tramitar" Content="TRAMITAR PEDIDO" CornerRadius="5" Click="tramitar_Click" Background="LightGray" 
+        <Button x:Name="tramitar" Content="TRAMITAR PEDIDO" CornerRadius="5" Click="tramitar_Click" Background="LightGray" Margin="5"
                 RelativePanel.Below="mapa" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
-        <RelativePanel RelativePanel.Below="tramitar" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" Margin="20" Padding="10" BorderBrush="White" BorderThickness="1">
-            <TextBlock x:Name="nombre" Foreground="White" FontSize="12" />
-            <TextBlock x:Name="apellido" Foreground="White" FontSize="12" RelativePanel.Below="nombre"/>
-            <TextBlock x:Name="direccion" Foreground="White" FontSize="12" RelativePanel.Below="apellido"/>
-            <TextBlock x:Name="telefono" Foreground="White" FontSize="12" RelativePanel.Below="direccion"/>
-            <TextBlock x:Name="email" Foreground="White" FontSize="12" RelativePanel.Below="telefono"/>
-            <TextBlock x:Name="fecha" Foreground="White" FontSize="12" RelativePanel.Below="email"/>
-            <TextBlock x:Name="hora" Foreground="White" FontSize="12" RelativePanel.Below="fecha"/>
-            <TextBlock x:Name="obsertext" Text="Observaciones: " Foreground="White" FontSize="12" RelativePanel.Below="hora" Margin="0,20,0,5"/>
-            <TextBox x:Name="observaciones" Background="White" FontSize="12" MinHeight="100" RelativePanel.Below="obsertext" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.Above="bloqueImagen"/>
-            <Button x:Name="confirmar" FontSize="10" Content="Guardar" Background="White" RelativePanel.Below="observaciones" RelativePanel.AlignRightWith="observaciones" Margin="5" Click="confirmar_Click"/>
-            <TextBlock x:Name="guardado" Text="Cambios guardados" Foreground="Green" RelativePanel.Below="confirmar" RelativePanel.AlignRightWith="confirmar" Visibility="Collapsed"/>
-            <RelativePanel x:Name="bloqueImagen" RelativePanel.AlignBottomWithPanel="True">
-                <TextBlock x:Name="fotostext" Text="Fotos: : " Foreground="White" FontSize="12" Margin="0,5,0,5"/>
-                <AppBarButton x:Name="add" Icon="Add" RelativePanel.Below="fotostext" RelativePanel.RightOf="fotostext" RelativePanel.AlignBottomWithPanel="True"  Height="40" Width="40"/>
+        
+        <StackPanel x:Name="checks" Orientation="Horizontal" RelativePanel.Below="tramitar" RelativePanel.AlignHorizontalCenterWithPanel="True">
+            <RadioButton x:Name="aceptar" Foreground="White" Content="Aceptar" FontSize="12" />
+            <RadioButton x:Name="rechazar" Foreground="White" Content="Rechazar" FontSize="12"/>
+        </StackPanel>
+        <ScrollViewer x:Name="principal" RelativePanel.Below="checks" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True"  Margin="20,10" Padding="10" BorderBrush="White" BorderThickness="1">
+            
+            <RelativePanel>
+                <TextBlock x:Name="nombre" Foreground="White" FontSize="12" />
+                <TextBlock x:Name="apellido" Foreground="White" FontSize="12" RelativePanel.Below="nombre"/>
+                <TextBlock x:Name="direccion" Foreground="White" FontSize="12" RelativePanel.Below="apellido"/>
+                <TextBlock x:Name="telefono" Foreground="White" FontSize="12" RelativePanel.Below="direccion"/>
+                <TextBlock x:Name="email" Foreground="White" FontSize="12" RelativePanel.Below="telefono"/>
+                <TextBlock x:Name="fecha" Foreground="White" FontSize="12" RelativePanel.Below="email"/>
+                <TextBlock x:Name="hora" Foreground="White" FontSize="12" RelativePanel.Below="fecha"/>
+                <TextBlock x:Name="obsertext" Text="Observaciones: " Foreground="White" FontSize="12" RelativePanel.Below="hora" Margin="0,20,0,5"/>
+                <TextBox x:Name="observaciones" Background="White" FontSize="12" MinHeight="100" RelativePanel.Below="obsertext" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.Above="bloqueImagen"/>
+                <Button x:Name="confirmar" FontSize="10" Content="Guardar" Background="White" RelativePanel.Below="observaciones" RelativePanel.AlignRightWith="observaciones" Margin="5" Click="confirmar_Click"/>
+                <TextBlock x:Name="guardado" Text="Cambios guardados" Foreground="Green" RelativePanel.Below="confirmar" RelativePanel.AlignRightWith="confirmar" Visibility="Collapsed"/>
+                <RelativePanel x:Name="bloqueImagen" RelativePanel.AlignBottomWithPanel="True">
+                    <TextBlock x:Name="fotostext" Text="Fotos: : " Foreground="White" FontSize="12" Margin="0,5,0,5"/>
+                    <AppBarButton x:Name="add" Icon="Add" RelativePanel.Below="fotostext" RelativePanel.RightOf="fotostext" RelativePanel.AlignBottomWithPanel="True"  Height="40" Width="40"/>
+                </RelativePanel>
             </RelativePanel>
-        </RelativePanel>
+        </ScrollViewer>
 
     </RelativePanel>
 </Page>
