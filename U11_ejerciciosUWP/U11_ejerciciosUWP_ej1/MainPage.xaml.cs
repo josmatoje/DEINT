@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using U11_ejerciciosUWP_ej1.ViewModels;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -22,9 +23,11 @@ namespace U11_ejerciciosUWP_ej1
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        private MainPageVM viewModel;
         public MainPage()
         {
             this.InitializeComponent();
+            viewModel = new MainPageVM();
         }
     }
 }

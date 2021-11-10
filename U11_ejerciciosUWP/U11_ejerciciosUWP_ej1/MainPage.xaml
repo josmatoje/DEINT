@@ -8,7 +8,23 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <RelativePanel>
+        <AppBarButton x:Name="delete" Icon="Delete" Click="{x:Bind viewModel.eliminaPersona}" />
+        <ListView x:Name="listado" ItemsSource="{x:Bind viewModel.ListaPersona}" SelectedItem="{x:Bind viewModel.PersonaSeleccionada, Mode=TwoWay}"  Margin="20" RelativePanel.Below="delete">
+            <ListView.ItemTemplate>
+                <DataTemplate x:Name="CitaTemplate">
+                    <RelativePanel MinWidth="350" Height="50" >
+                        <TextBlock x:Name="nombre" Text="{Binding Nombre}" />
+                        <TextBlock x:Name="apellido" Text="{Binding Apellido}" Margin="5,0" RelativePanel.RightOf="nombre" />
+                    </RelativePanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <ItemsStackPanel Orientation="Vertical" HorizontalAlignment="Center"/>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+        </ListView>
 
-    </Grid>
+    </RelativePanel>
 </Page>

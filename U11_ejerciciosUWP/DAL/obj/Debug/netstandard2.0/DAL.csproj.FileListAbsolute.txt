@@ -1,0 +1,13 @@
+D:\jmmata\DEINT\U11_ejerciciosUWP\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+D:\jmmata\DEINT\U11_ejerciciosUWP\DAL\bin\Debug\netstandard2.0\DAL.dll
+D:\jmmata\DEINT\U11_ejerciciosUWP\DAL\bin\Debug\netstandard2.0\DAL.pdb
+D:\jmmata\DEINT\U11_ejerciciosUWP\DAL\bin\Debug\netstandard2.0\Entities.dll
+D:\jmmata\DEINT\U11_ejerciciosUWP\DAL\bin\Debug\netstandard2.0\Entities.pdb
+D:\jmmata\DEINT\U11_ejerciciosUWP\DAL\obj\Debug\netstandard2.0\DAL.csproj.AssemblyReference.cache
+D:\jmmata\DEINT\U11_ejerciciosUWP\DAL\obj\Debug\netstandard2.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\jmmata\DEINT\U11_ejerciciosUWP\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+D:\jmmata\DEINT\U11_ejerciciosUWP\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+D:\jmmata\DEINT\U11_ejerciciosUWP\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+D:\jmmata\DEINT\U11_ejerciciosUWP\DAL\obj\Debug\netstandard2.0\DAL.csproj.CopyComplete
+D:\jmmata\DEINT\U11_ejerciciosUWP\DAL\obj\Debug\netstandard2.0\DAL.dll
+D:\jmmata\DEINT\U11_ejerciciosUWP\DAL\obj\Debug\netstandard2.0\DAL.pdb
