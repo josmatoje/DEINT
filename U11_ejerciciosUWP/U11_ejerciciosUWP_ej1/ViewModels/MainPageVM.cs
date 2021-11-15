@@ -15,7 +15,7 @@ namespace U11_ejerciciosUWP_ej1.ViewModels
         private clsPersona personaSeleccionada;
         public MainPageVM()
         {
-            ListaPersona =new ObservableCollection<clsPersona>(listadoPersonas.buscapersonas());
+            ListaPersona =new ObservableCollection<clsPersona>(PersonasDAL.listadoPersonas());
             PersonaSeleccionada = new clsPersona();
         }
 

@@ -101,11 +101,16 @@ namespace U11_ejerciciosUWP_ej2.ViewModels.Utilidades
         }
 
         public bool CanExecute(object parameter)
-        {
-            if (_canExecute != null)
-                return _canExecute((T)parameter);
+        {   //Codigo base, mejor una variable que dos returns
+            //if (_canExecute != null)
+            //    return _canExecute((T)parameter);
 
-            return true;
+            //return true; 
+            bool excute = true;
+            if (_canExecute != null)
+                excute = _canExecute((T)parameter);
+
+            return excute;
         }
 
         public void Execute(object parameter)

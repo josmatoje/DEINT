@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>107-04</Machine>
-    <WindowsUser>jmmata</WindowsUser>
+    <Machine>DESKTOP-QLOJ2ML</Machine>
+    <WindowsUser>josem</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>80f17779-f457-4226-b9c7-c03b4f375127</PackageIdentityName>
     <PackageIdentityPublisher>CN=jmmata</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\jmmata\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\jmmata\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>90D71F95C73CEB5B092C40B99743D9CF01D0D14C5932D1A96B48ACCD060D8721</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>80f17779-f457-4226-b9c7-c03b4f375127_1.0.0.0_x86__k02g86z1an4cw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>80f17779-f457-4226-b9c7-c03b4f375127_k02g86z1an4cw!App</RegisteredUserModeAppID>
@@ -27,94 +27,94 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\jmmata\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-10T12:42:17.221</Modified>
+      <Modified>2021-11-13T19:41:01.182</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\bin\x86\Debug\U11_ejerciciosUWP_ej2.exe">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\bin\x86\Debug\U11_ejerciciosUWP_ej2.exe">
       <PackagePath>entrypoint\U11_ejerciciosUWP_ej2.exe</PackagePath>
-      <Modified>2021-11-10T12:42:15.448</Modified>
+      <Modified>2021-11-13T19:41:00.845</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2021-02-04T23:15:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U11_ejerciciosUWP\DAL\bin\Debug\netstandard2.0\DAL.dll">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\DAL\bin\Debug\netstandard2.0\DAL.dll">
       <PackagePath>DAL.dll</PackagePath>
-      <Modified>2021-11-10T11:41:28.413</Modified>
+      <Modified>2021-11-13T16:07:56.017</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U11_ejerciciosUWP\Entities\bin\Debug\netstandard2.0\Entities.dll">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\Entities\bin\Debug\netstandard2.0\Entities.dll">
       <PackagePath>Entities.dll</PackagePath>
-      <Modified>2021-11-10T11:41:27.556</Modified>
+      <Modified>2021-11-13T16:07:55.336</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-02T02:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-11-10T11:14:41.591</Modified>
+      <Modified>2021-11-10T22:13:25.782</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-10-25T07:00:29.166</Modified>
+      <Modified>2021-11-10T22:13:25.711</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-25T07:00:29.172</Modified>
+      <Modified>2021-11-10T22:13:25.706</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-25T07:00:29.174</Modified>
+      <Modified>2021-11-10T22:13:25.707</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-25T07:00:29.175</Modified>
+      <Modified>2021-11-10T22:13:25.707</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-25T07:00:29.176</Modified>
+      <Modified>2021-11-10T22:13:25.710</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-25T07:00:29.178</Modified>
+      <Modified>2021-11-10T22:13:25.717</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-25T07:00:29.180</Modified>
+      <Modified>2021-11-10T22:13:25.709</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\bin\x86\Debug\U11_ejerciciosUWP_ej2.xr.xml">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\bin\x86\Debug\U11_ejerciciosUWP_ej2.xr.xml">
       <PackagePath>U11_ejerciciosUWP_ej2.xr.xml</PackagePath>
-      <Modified>2021-11-10T12:42:15.328</Modified>
+      <Modified>2021-11-13T18:12:37.605</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-11-10T12:42:15.351</Modified>
+      <Modified>2021-11-13T19:41:00.801</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-11-10T12:42:15.351</Modified>
+      <Modified>2021-11-13T19:41:00.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2020-12-02T00:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-11-10T12:42:15.793</Modified>
+      <Modified>2021-11-13T16:35:45.358</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\jmmata\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\bin\x86\Debug\Core\U11_ejerciciosUWP_ej2.exe">
+    <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej2\bin\x86\Debug\Core\U11_ejerciciosUWP_ej2.exe">
       <PackagePath>U11_ejerciciosUWP_ej2.exe</PackagePath>
-      <Modified>2021-11-10T12:42:17.203</Modified>
+      <Modified>2021-11-13T19:41:01.180</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

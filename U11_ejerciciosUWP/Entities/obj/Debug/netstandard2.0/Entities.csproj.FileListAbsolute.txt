@@ -8,3 +8,13 @@ D:\jmmata\DEINT\U11_ejerciciosUWP\Entities\obj\Debug\netstandard2.0\Entities.Ass
 D:\jmmata\DEINT\U11_ejerciciosUWP\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
 D:\jmmata\DEINT\U11_ejerciciosUWP\Entities\obj\Debug\netstandard2.0\Entities.dll
 D:\jmmata\DEINT\U11_ejerciciosUWP\Entities\obj\Debug\netstandard2.0\Entities.pdb
+D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\Entities\bin\Debug\netstandard2.0\Entities.dll
+D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\Entities\bin\Debug\netstandard2.0\Entities.pdb
+D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\Entities\obj\Debug\netstandard2.0\Entities.csproj.AssemblyReference.cache
+D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\Entities\obj\Debug\netstandard2.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\Entities\obj\Debug\netstandard2.0\Entities.dll
+D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\Entities\obj\Debug\netstandard2.0\Entities.pdb

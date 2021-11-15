@@ -14,9 +14,9 @@
     </Page.DataContext>
     
     <RelativePanel>
-        <TextBox x:Name="buscador" PlaceholderText="Buscar" />
-        <AppBarButton x:Name="find" Icon="Find" Command="{Binding Buscar}" RelativePanel.RightOf="buscador"/>
-        <ListView x:Name="listado" ItemsSource="{Binding ListaPersonaCompleto}" Margin="20" RelativePanel.Below="find">
+        <TextBox x:Name="buscador" Text="{Binding TextBoxBuscar, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" PlaceholderText="Buscar" Width="200" Margin="20"/>
+        <AppBarButton x:Name="find" Icon="Find" Command="{Binding Buscador}" RelativePanel.RightOf="buscador" RelativePanel.AlignBottomWith="buscador"/>
+        <ListView x:Name="listado" ItemsSource="{Binding ListaPersonaOfrecido}" Margin="20" RelativePanel.Below="find">
             <ListView.ItemTemplate>
                 <DataTemplate x:Name="CitaTemplate">
                     <RelativePanel MinWidth="350" Height="50" >

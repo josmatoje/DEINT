@@ -19,29 +19,42 @@ namespace U11_ejerciciosUWP_ej2.ViewModels
         private string textBoxBuscar;
         public MainPageVM()
         {
-            ListaPersonaCompleto = new ObservableCollection<clsPersona>(listadoPersonas.buscapersonas());
-
+            ListaPersonaCompleto = new ObservableCollection<clsPersona>(PersonasDAL.listadoPersonas());
+            ListaPersonaOfrecido = ListaPersonaCompleto;
         }
 
+        public DelegateCommand Buscador {
+            get => buscador = new DelegateCommand(Buscar,SePuedeBuscar); // ---> Esta opcion seria igual que la de abajo?
+            //get { return buscador = new DelegateCommand(Buscar, SePuedeBuscar); }
+        }
         public ObservableCollection<clsPersona> ListaPersonaCompleto { get => listaPersonaCompleto; set => listaPersonaCompleto = value; }
-
-        public void Buscar()
-        {
-
-        }
-
-
-        public ICommand Buscar
-        {
-            get
+        public ObservableCollection<clsPersona> ListaPersonaOfrecido { get => listaPersonaOfrecido; set => listaPersonaOfrecido = value; }
+        public string TextBoxBuscar {
+            get => textBoxBuscar; 
+            set
             {
+                textBoxBuscar = value;
+                if (String.IsNullOrEmpty(value))
+                {
+                    ListaPersonaOfrecido = ListaPersonaCompleto;
+                    NotifyPropertyChanged("ListaPersonaOfrecido");
+                }
+                buscador.RaiseCanExecuteChanged();
+                //NotifyPropertyChanged("TextBoxBuscar"); twoWays hace q no haga falta esto
+            } 
                 
-                return buscador;
-            }
         }
 
-        private void PerformBuscar()
+        private void Buscar()
         {
+            ListaPersonaOfrecido = new ObservableCollection<clsPersona>(ListaPersonaCompleto.Where(persona => persona.ToString().Contains(TextBoxBuscar)));
+            NotifyPropertyChanged("ListaPersonaOfrecido");
         }
+
+        private bool SePuedeBuscar()
+        {   //Texto distinto de vacio y null
+            return !String.IsNullOrEmpty(TextBoxBuscar);
+        }
+
     }
 }
