@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Entities
 {
@@ -32,6 +33,14 @@ namespace Entities
             set => apellido = value;
         }
 
+        public override bool Equals(object obj)
+        {
+            return obj is clsPersona persona &&
+                   nombre == persona.nombre &&
+                   apellido == persona.apellido &&
+                   Nombre == persona.Nombre &&
+                   Apellido == persona.Apellido;
+        }
         public override string ToString() => $"{Nombre} {Apellido}";
 
         #endregion

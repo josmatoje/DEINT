@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using U11_ejerciciosUWP_ej3.ViewModels;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -25,6 +26,12 @@ namespace U11_ejercicioUWP_ej3
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+        private void MenuFlyoutItem_Click(object sender, RoutedEventArgs e)
+        {
+            MainPageVM viewModel = (MainPageVM) this.DataContext;
+            viewModel.Eliminador.Execute(sender);
         }
     }
 }

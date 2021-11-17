@@ -14,7 +14,7 @@
     </Page.DataContext>
 
     <RelativePanel>
-        <MenuBar x:Name="barra" >
+        <MenuBar x:ConnectionId='2' x:Name="barra" >
             <MenuBarItem Title="Persona">
                 <MenuFlyoutItem Text="Eliminar" Command="{Binding Eliminador}">
                     <MenuFlyoutItem.KeyboardAccelerators>
@@ -23,12 +23,12 @@
                 </MenuFlyoutItem>
             </MenuBarItem>
         </MenuBar>
-        <TextBox x:Name="buscador" Text="{Binding TextBoxBuscar, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" RelativePanel.Below="barra" PlaceholderText="Buscar" Width="200" Margin="20"/>
-        <AppBarButton x:Name="find" Icon="Find" Command="{Binding Buscador}" RelativePanel.RightOf="buscador" RelativePanel.AlignBottomWith="buscador"/>
-        <ListView x:Name="listado" ItemsSource="{Binding ListaPersonaOfrecido}" SelectedItem="{Binding PersonaSeleccionada, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" SelectionMode="Single" IsItemClickEnabled="True" Margin="20" RelativePanel.Below="find">
+        <TextBox x:ConnectionId='3' x:Name="buscador" Text="{Binding TextBoxBuscar, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" RelativePanel.Below="barra" PlaceholderText="Buscar" Width="200" Margin="20"/>
+        <AppBarButton x:ConnectionId='4' x:Name="find" Icon="Find" Command="{Binding Buscador}" RelativePanel.RightOf="buscador" RelativePanel.AlignBottomWith="buscador"/>
+        <ListView x:ConnectionId='5' x:Name="listado" ItemsSource="{Binding ListaPersonaOfrecido}" SelectedItem="{Binding PersonaSeleccionada, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" SelectionMode="Single" IsItemClickEnabled="True" Margin="20" RelativePanel.Below="find">
             <ListView.ContextFlyout>
                 <MenuFlyout>
-                    <MenuFlyoutItem Text="Eliminar" Icon="Delete" Command="{Binding Eliminador}" Click="MenuFlyoutItem_Click" />
+                    <MenuFlyoutItem Text="Eliminar" Icon="Delete" Command="{Binding Eliminador}" />
                 </MenuFlyout>
             </ListView.ContextFlyout>
             <ListView.ItemTemplate>
@@ -45,7 +45,8 @@
                 </ItemsPanelTemplate>
             </ListView.ItemsPanel>
         </ListView>
-        <AppBarButton x:Name="delete" Icon="Delete" Command="{Binding Eliminador}" RelativePanel.Below="listado" RelativePanel.AlignLeftWith="find"/>
+        <AppBarButton x:ConnectionId='6' x:Name="delete" Icon="Delete" Command="{Binding Eliminador}" RelativePanel.Below="listado" RelativePanel.AlignLeftWith="find"/>
 
     </RelativePanel>
 </Page>
+
