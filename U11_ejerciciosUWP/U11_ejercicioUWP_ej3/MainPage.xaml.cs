@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entities;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -32,6 +33,16 @@ namespace U11_ejercicioUWP_ej3
         {
             MainPageVM viewModel = (MainPageVM) this.DataContext;
             viewModel.Eliminador.Execute(sender);
+        }
+
+        private void listado_RightTapped(object sender, RightTappedRoutedEventArgs e)
+        {
+            ListView listado = (ListView)sender;
+            MainPageVM viewModel = (MainPageVM)this.DataContext;
+            //Asignamos a la persona seleccionada del viewModel la persona (por pertenecer al datacontext del listado compuesto de personas)
+            //      de la fuente orioginal del elemento de XAML en el que hemos clikado de nuestro contexto de datos.
+            viewModel.PersonaSeleccionada = (clsPersona)(e.OriginalSource as FrameworkElement).DataContext;
+            laKey.ShowAt(listado, e.GetPosition(listado));
         }
     }
 }

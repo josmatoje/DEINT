@@ -28,7 +28,7 @@
         <ListView x:ConnectionId='5' x:Name="listado" ItemsSource="{Binding ListaPersonaOfrecido}" SelectedItem="{Binding PersonaSeleccionada, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" SelectionMode="Single" IsItemClickEnabled="True" Margin="20" RelativePanel.Below="find">
             <ListView.ContextFlyout>
                 <MenuFlyout>
-                    <MenuFlyoutItem Text="Eliminar" Icon="Delete" Command="{Binding Eliminador}" />
+                    <MenuFlyoutItem x:ConnectionId='7' Text="Eliminar" Icon="Delete" Command="{Binding Eliminador}"                              />
                 </MenuFlyout>
             </ListView.ContextFlyout>
             <ListView.ItemTemplate>

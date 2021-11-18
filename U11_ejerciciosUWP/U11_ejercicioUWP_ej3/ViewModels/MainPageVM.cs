@@ -47,7 +47,7 @@ namespace U11_ejerciciosUWP_ej3.ViewModels
                 textBoxBuscar = value;
                 if (String.IsNullOrEmpty(value))
                 {
-                    ListaPersonaOfrecido = ListaPersonaCompleto;
+                    listaPersonaOfrecido = listaPersonaCompleto;
                     NotifyPropertyChanged("ListaPersonaOfrecido");
                 }
                 buscador.RaiseCanExecuteChanged();
@@ -67,24 +67,29 @@ namespace U11_ejerciciosUWP_ej3.ViewModels
         #region propiedades privadas
         private void Buscar()
         {
-            ListaPersonaOfrecido = new ObservableCollection<clsPersona>(ListaPersonaCompleto.Where(persona => persona.ToString().Contains(TextBoxBuscar)));
+            //listaPersonaOfrecido = new ObservableCollection<clsPersona>(listaPersonaCompleto.Where(persona => persona.ToString().ToLower().Contains(TextBoxBuscar)));
+            listaPersonaOfrecido = new ObservableCollection<clsPersona>(from personas in listaPersonaCompleto
+                                                                        where   personas.Nombre.ToLower().Contains(textBoxBuscar) ||
+                                                                                personas.Apellido.ToLower().Contains(textBoxBuscar)
+                                                                        select personas);
             NotifyPropertyChanged("ListaPersonaOfrecido");
         }
 
         private bool SePuedeBuscar()
         {   //Texto distinto de vacio y null
-            return !String.IsNullOrEmpty(TextBoxBuscar);
+            return !String.IsNullOrEmpty(textBoxBuscar);
         }
         private void Eliminar()
         {
-            listaPersonaCompleto.Remove(PersonaSeleccionada);
-            if (ListaPersonaOfrecido.Contains(PersonaSeleccionada))
-                listaPersonaOfrecido.Remove(PersonaSeleccionada);
+            listaPersonaCompleto.Remove(personaSeleccionada);
+            //Mejor actualizar de la completa
+            if (listaPersonaOfrecido.Contains(personaSeleccionada))
+                listaPersonaOfrecido.Remove(personaSeleccionada);
         }
 
         private bool SePuedeEliminarar()
         {   //Texto distinto de vacio y null
-            return !(PersonaSeleccionada is null);
+            return !(personaSeleccionada is null);
         }
         #endregion
     }

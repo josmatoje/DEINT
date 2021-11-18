@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1ZZxyUCwzNfw3npPwMLdOLATY7o0i5uyNb2RhINZBz2+9nnvHwKqUbH9oTXJfo+nvauudBkxPe7dQWwBpO8tnw==",
+  "dgSpecHash": "pU2x0iumxnskG7fTMRG2bg5kgLNt1ZBGydZ/pvgWPdsu+eGqeldg3T2xRAxAOc30d0CBmIRrPyAk7st0otBN3w==",
   "success": true,
-  "projectFilePath": "D:\\GS DAM\\Repositorios\\DEINT\\U11_ejerciciosUWP\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\jmmata\\DEINT\\U11_ejerciciosUWP\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\josem\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\josem\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\jmmata\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jmmata\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

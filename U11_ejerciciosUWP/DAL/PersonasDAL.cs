@@ -11,6 +11,10 @@ namespace DAL
         //{
         //}
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns>listado </returns>
         public static List<clsPersona> listadoPersonas()
         {
             List<clsPersona> listado = new List<clsPersona>();

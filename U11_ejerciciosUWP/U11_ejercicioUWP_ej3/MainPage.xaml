@@ -25,12 +25,12 @@
         </MenuBar>
         <TextBox x:Name="buscador" Text="{Binding TextBoxBuscar, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" RelativePanel.Below="barra" PlaceholderText="Buscar" Width="200" Margin="20"/>
         <AppBarButton x:Name="find" Icon="Find" Command="{Binding Buscador}" RelativePanel.RightOf="buscador" RelativePanel.AlignBottomWith="buscador"/>
-        <ListView x:Name="listado" ItemsSource="{Binding ListaPersonaOfrecido}" SelectedItem="{Binding PersonaSeleccionada, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" SelectionMode="Single" IsItemClickEnabled="True" Margin="20" RelativePanel.Below="find">
-            <ListView.ContextFlyout>
-                <MenuFlyout>
-                    <MenuFlyoutItem Text="Eliminar" Icon="Delete" Command="{Binding Eliminador}" Click="MenuFlyoutItem_Click" />
+        <ListView x:Name="listado" ItemsSource="{Binding ListaPersonaOfrecido}" RightTapped="listado_RightTapped" SelectedItem="{Binding PersonaSeleccionada, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" SelectionMode="Single" IsItemClickEnabled="True" Margin="20" RelativePanel.Below="find">
+            <ListView.Resources>
+                <MenuFlyout x:Name="laKey">
+                    <MenuFlyoutItem Text="Eliminar" Icon="Delete" Command="{Binding Eliminador}" /> <!--Click="MenuFlyoutItem_Click"-->
                 </MenuFlyout>
-            </ListView.ContextFlyout>
+            </ListView.Resources>
             <ListView.ItemTemplate>
                 <DataTemplate x:Name="CitaTemplate">
                     <RelativePanel MinWidth="350" Height="50" >

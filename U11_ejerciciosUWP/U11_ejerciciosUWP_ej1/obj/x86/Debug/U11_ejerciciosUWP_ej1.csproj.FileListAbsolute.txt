@@ -95,3 +95,4 @@ D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej1\obj\x86\Deb
 D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej1\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej1\obj\x86\Debug\ProjectArchitectures.txt
 D:\GS DAM\Repositorios\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej1\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424743200000000.json
+D:\jmmata\DEINT\U11_ejerciciosUWP\U11_ejerciciosUWP_ej1\obj\x86\Debug\U11_ejerciciosUWP_ej1.csproj.CopyComplete
