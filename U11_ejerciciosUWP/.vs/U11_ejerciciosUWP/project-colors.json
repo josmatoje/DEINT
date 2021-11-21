@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "545fc340-58cf-47f8-ae1b-50d79711b9fa": {
+      "ProjectGuid": "545fc340-58cf-47f8-ae1b-50d79711b9fa",
+      "DisplayName": "U11_ejerciciosUWP_ej1",
+      "ColorIndex": 0
+    },
+    "05c9137c-4d8b-4a34-afe8-205036d41b8f": {
+      "ProjectGuid": "05c9137c-4d8b-4a34-afe8-205036d41b8f",
+      "DisplayName": "U11_ejerciciosUWP_ej2",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
