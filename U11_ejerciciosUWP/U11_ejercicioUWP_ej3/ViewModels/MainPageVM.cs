@@ -88,7 +88,7 @@ namespace U11_ejerciciosUWP_ej3.ViewModels
         }
 
         private bool SePuedeEliminarar()
-        {   //Texto distinto de vacio y null
+        {   //Personadeleccionada distinto de vacio y null
             return !(personaSeleccionada is null);
         }
         #endregion
