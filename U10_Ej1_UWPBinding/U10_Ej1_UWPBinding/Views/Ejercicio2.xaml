@@ -5,12 +5,12 @@
     xmlns:local="using:U10_Ej1_UWPBinding.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:vm="using:U10_Ej1_UWPBinding.ViewModels" 
+    xmlns:vm="using:U10_Ej1_UWPBinding.ViewModels" xmlns:vm1="using:U10_UWPBinding.ViewModels"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <!--Contexto de datos en el que buscar (la clase) -->
     <Page.DataContext>
-        <vm:Ejercicio2VM/>
+        <vm1:Ejercicio2VM/>
     </Page.DataContext>
 
     <Grid>

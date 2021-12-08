@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>7E77383C1DC70792ED3C3EB6716BF8CCBF5020B22C28E1C46892A56B8244D9CA</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>75BF989703B8F3D26402EF6C9962B16505AF580F9BCD3BB3A0B1B1CD6A2E5963</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>3e5ded7a-d2aa-4068-a5f2-52d55b15257c_1.0.0.0_x86__k02g86z1an4cw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>3e5ded7a-d2aa-4068-a5f2-52d55b15257c_k02g86z1an4cw!App</RegisteredUserModeAppID>
     <RegisteredPackageID>3e5ded7a-d2aa-4068-a5f2-52d55b15257c</RegisteredPackageID>
@@ -30,17 +30,17 @@
     <AppXManifest Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-08T16:37:58.839</Modified>
+      <Modified>2021-12-07T11:05:27.699</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Solarizr_UWP_App.exe">
       <PackagePath>entrypoint\Solarizr_UWP_App.exe</PackagePath>
-      <Modified>2021-11-08T16:37:58.234</Modified>
+      <Modified>2021-12-07T11:05:26.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2021-02-04T23:15:46.000</Modified>
+      <Modified>2021-02-05T00:15:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -94,23 +94,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-11-08T16:37:58.169</Modified>
+      <Modified>2021-12-07T11:05:26.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Views\AnhadirImagen.xbf">
       <PackagePath>Views\AnhadirImagen.xbf</PackagePath>
-      <Modified>2021-11-08T16:37:58.169</Modified>
+      <Modified>2021-12-07T11:05:26.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Views\Citas.xbf">
       <PackagePath>Views\Citas.xbf</PackagePath>
-      <Modified>2021-11-08T16:37:58.169</Modified>
+      <Modified>2021-12-07T11:05:26.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Views\DetallesCita.xbf">
       <PackagePath>Views\DetallesCita.xbf</PackagePath>
-      <Modified>2021-11-08T16:37:58.169</Modified>
+      <Modified>2021-12-07T11:05:26.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-11-08T16:37:58.169</Modified>
+      <Modified>2021-12-07T11:05:26.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -118,11 +118,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-11-08T16:12:25.209</Modified>
+      <Modified>2021-12-07T11:05:26.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Core\Solarizr_UWP_App.exe">
       <PackagePath>Solarizr_UWP_App.exe</PackagePath>
-      <Modified>2021-11-08T16:37:58.832</Modified>
+      <Modified>2021-12-07T11:05:27.689</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

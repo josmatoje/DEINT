@@ -116,3 +116,4 @@ D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Vie
 D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Views\AnhadirImagen.xaml
 D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Views\AnhadirImagen.xbf
 D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\bin\x86\Debug\Views\AnhadirImagen.xbf
+D:\GS DAM\Repositorios\DEINT\Solarizr_UWP_App\Solarizr_UWP_App\obj\x86\Debug\Solarizr_UWP_App.csproj.CopyComplete

@@ -10,7 +10,12 @@
       "ProjectGuid": "05c9137c-4d8b-4a34-afe8-205036d41b8f",
       "DisplayName": "U11_ejerciciosUWP_ej2",
       "ColorIndex": 1
+    },
+    "2bb6afaa-691e-4d6a-b164-358ab7ecd574": {
+      "ProjectGuid": "2bb6afaa-691e-4d6a-b164-358ab7ecd574",
+      "DisplayName": "U11_ejercicioUWP_ej3",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }

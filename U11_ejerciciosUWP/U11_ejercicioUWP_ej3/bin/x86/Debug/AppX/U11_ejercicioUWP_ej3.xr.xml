@@ -50,9 +50,10 @@
       <RootProperty Name="SelectionMode" />
       <RootProperty Name="IsItemClickEnabled" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="ContextFlyout" />
+      <RootProperty Name="Resources" />
       <RootProperty Name="ItemTemplate" />
       <RootProperty Name="ItemsPanel" />
+      <RootEvent Name="RightTapped" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="Mode" />
@@ -66,7 +67,6 @@
       <RootProperty Name="Icon" />
       <RootProperty Name="Command" />
       <RootProperty Name="KeyboardAccelerators" />
-      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
