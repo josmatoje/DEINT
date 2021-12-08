@@ -1,0 +1,79 @@
+﻿<Page
+    x:Class="Unidad9_Controlls.Ejercicio1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Unidad9_Controlls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <RelativePanel Grid.Row="0" Grid.Column="0">
+            <TextBlock x:Name="titulo" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" Margin="10,10,0,0">
+                RadioButton
+            </TextBlock>
+            <RadioButton x:Name="opcion1" IsChecked="True" Margin="10,10,0,0" RelativePanel.Below="titulo">
+                <StackPanel Orientation="Horizontal">
+                    <SymbolIcon Symbol="Back" Margin="10,0,10,0"/>
+                    <TextBlock Text="Opcion 1"/>
+                </StackPanel>
+            </RadioButton>
+            <RadioButton x:Name="opcion2" IsChecked="True" Margin="10,10,0,0" RelativePanel.Below="opcion1">
+                <StackPanel Orientation="Horizontal">
+                    <SymbolIcon Symbol="Back" Margin="10,0,10,0"/>
+                    <TextBlock Text="Opcion 2"/>
+                </StackPanel>
+            </RadioButton>
+            <RadioButton x:Name="opcion3" IsChecked="True" Margin="10,10,0,0" RelativePanel.Below="opcion2">
+                <StackPanel Orientation="Horizontal">
+                    <SymbolIcon Symbol="Back" Margin="10,0,10,0"/>
+                    <TextBlock Text="Opcion 3"/>
+                </StackPanel>
+            </RadioButton>
+            <Button x:Name="go" Content="GO" Background="Bisque"
+                    RelativePanel.Below="opcion3" RelativePanel.AlignHorizontalCenterWithPanel="True" />
+        </RelativePanel>
+        
+        <RelativePanel Grid.Row="1" Grid.Column="0">
+            <Button Content="Button to Page2." ToolTipService.ToolTip="Simple ToolTip" Click="Button_Click" Background="BurlyWood"
+                    RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.AlignVerticalCenterWithPanel="True"/>
+        </RelativePanel>
+
+        <RelativePanel Grid.Row="2" Grid.Column="0">
+            <Pivot>
+                <PivotItem x:Name="music">
+                    <PivotItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Mail"/>
+                            <SymbolIcon Symbol="Mail" Margin="10,0,0,0"/>
+                        </StackPanel>
+                    </PivotItem.Header>
+                    <StackPanel>
+                        <CheckBox>
+                            <TextBlock>Opcion 1</TextBlock>
+                        </CheckBox>
+                        <CheckBox>
+                            <TextBlock>Opcion 2</TextBlock>
+                        </CheckBox>
+                    </StackPanel>
+                </PivotItem>
+            </Pivot>
+        </RelativePanel>
+        
+    </Grid>
+    
+</Page>
+<!--Value="{Binding ElementName=sldOrigen, Path=value}"-->

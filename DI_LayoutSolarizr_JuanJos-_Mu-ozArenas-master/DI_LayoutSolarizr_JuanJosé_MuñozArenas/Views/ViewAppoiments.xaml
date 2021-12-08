@@ -1,0 +1,102 @@
+﻿<Page
+    x:Class="DI_LayoutSolarizr_JuanJosé_MuñozArenas.ViewAppoiments"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DI_LayoutSolarizr_JuanJosé_MuñozArenas"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:DI_LayoutSolarizr_JuanJosé_MuñozArenas.ViewModels"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.DataContext>
+        <vm:AppoimentsPageViewModel/>
+    </Page.DataContext>
+    <RelativePanel>
+        <RelativePanel.Background>
+            <ImageBrush Stretch="Fill" ImageSource="/Assets/solarPannelImageAtBottom.jpg"/>
+        </RelativePanel.Background>
+        <Grid RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" Margin="0,0,70,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <GridView x:Name="gvwAppoiments" ItemsSource="{Binding Appoiments}" Grid.Row="0" Grid.Column="1" IsItemClickEnabled="True" IsSwipeEnabled="true" SelectionMode="Single" Padding="15,30,15,0" ItemClick="grid_ItemClick">
+                <GridView.ItemContainerStyle>
+                    <Style TargetType = "GridViewItem" >
+                        <Setter Property="Margin" Value="0,50,50,0"></Setter>
+                    </Style>
+                </GridView.ItemContainerStyle>
+                <GridView.Background>
+                    <SolidColorBrush Color="Black" Opacity="0.7"></SolidColorBrush>
+                </GridView.Background>
+                <GridView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <ItemsWrapGrid x:Name="MaxItemsWrapGrid"
+                           Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </GridView.ItemsPanel>
+                <GridView.ItemTemplate>
+                    <DataTemplate>
+                        <UserControl>
+                            <StackPanel x:Name="stkGridViewItems" Padding="10,10,10,10" CornerRadius="10" MinWidth="500" BorderThickness="3">
+                                <VisualStateManager.VisualStateGroups>
+                                    <VisualStateGroup>
+                                        <VisualState>
+                                            <VisualState.StateTriggers>
+                                                <AdaptiveTrigger MinWindowWidth="0"></AdaptiveTrigger>
+                                            </VisualState.StateTriggers>
+                                            <VisualState.Setters>
+                                                <Setter Target="stkGridViewItems.Orientation" Value="Vertical"></Setter>
+                                                <Setter Target="elpImage.MinHeight" Value="100"></Setter>
+                                                <Setter Target="elpImage.MaxWidth" Value="100"></Setter>
+                                                <Setter Target="elpImage.Margin" Value="0,0,0,0"></Setter>
+                                                <Setter Target="stkGridViewItems.MinWidth" Value="150"></Setter>
+                                                <Setter Target="stkGridViewItems.MaxWidth" Value="150"></Setter>
+                                                <Setter Target="stkGridViewItems.MinHeight" Value="350"></Setter>
+                                                <Setter Target="stkGridViewItems.MaxHeight" Value="250"></Setter>
+                                            </VisualState.Setters>
+                                        </VisualState>
+                                        <VisualState>
+                                            <VisualState.StateTriggers>
+                                                <AdaptiveTrigger MinWindowWidth="850"></AdaptiveTrigger>
+                                            </VisualState.StateTriggers>
+                                            <VisualState.Setters>
+                                                <Setter Target="stkGridViewItems.Orientation" Value="Horizontal"></Setter>
+                                                <Setter Target="elpImage.MinHeight" Value="150"></Setter>
+                                                <Setter Target="elpImage.MinWidth" Value="150"></Setter>
+                                                <Setter Target="stkGridViewItems.MinWidth" Value="500"></Setter>
+                                            </VisualState.Setters>
+                                        </VisualState>
+                                    </VisualStateGroup>
+                                </VisualStateManager.VisualStateGroups>
+                                <StackPanel.Background>
+                                    <SolidColorBrush Color="Gray" Opacity="0.85"></SolidColorBrush>
+                                </StackPanel.Background>
+                                <Ellipse x:Name="elpImage" Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" Stroke="AntiqueWhite" StrokeThickness="3" Margin="0,0,20,20">
+                                    <Ellipse.Fill>
+                                        <ImageBrush ImageSource="/Assets/MapImage.PNG" />
+                                    </Ellipse.Fill>
+                                </Ellipse>
+                                <StackPanel x:Name="stkAppoimentText">
+                                    <TextBlock Grid.Column="1"  Foreground="White" FontWeight="SemiLight"  Grid.Row="0" FontSize="30" HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,20,0,10" Text="{Binding Date.TimeOfDay}"></TextBlock>
+                                    <TextBlock Grid.Column="1" Grid.Row="1" FontWeight="Bold" Foreground="White" FontSize="20"  Text="{Binding AppoimentType}" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="0,0,0,10"></TextBlock>
+                                    <TextBlock Grid.Column="1" Grid.Row="2" FontWeight="SemiLight" Foreground="White" FontSize="20" Text="{Binding Costumer.Address}" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="0,0,0,10"></TextBlock>
+                                </StackPanel>
+                            </StackPanel>
+                    </UserControl>
+                    </DataTemplate>
+                </GridView.ItemTemplate>
+            </GridView>
+            <NavigationView Grid.Row="0" OpenPaneLength="180" ItemInvoked="nvAppoiments_ItemInvoked" Grid.Column="0" x:Name="nvAppoiments" IsPaneOpen="False" IsBackButtonVisible="Collapsed" IsSettingsVisible="True" IsPaneVisible="True" PaneDisplayMode="LeftCompact" IsTabStop="False">
+                <NavigationView.MenuItems>
+                    <NavigationViewItem x:Name="HomeAppoiments" Icon="Home" Content="Home"/>
+                    <NavigationViewItem x:Name="ContactButton" Icon="Contact"  Content="Users"/>
+                    <NavigationViewItem x:Name="CameraButton" Icon="Camera"  Content="Camera"/>
+                </NavigationView.MenuItems>
+            </NavigationView>
+        </Grid>
+    </RelativePanel>
+</Page>

@@ -1,0 +1,55 @@
+﻿<Page
+    x:Class="Unidad9_Controlls.Ejercicio3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Unidad9_Controlls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <RelativePanel x:Name="ImageGrid">
+        <StackPanel Name="menuBotones" Orientation="Vertical" RelativePanel.AlignLeftWithPanel="True" 
+                    RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignBottomWithPanel="True" 
+                      Background="AliceBlue">
+            <AppBarButton Name="añadir" Icon="Add" Label="añadir"/>
+            <AppBarButton Name="ir" Icon="Go" Label="ir"/>
+            <AppBarButton Name="objetivo" Icon="Globe"/>
+            <AppBarButton Name="añadirPersona" Icon="AddFriend" Label="añadir" />
+        </StackPanel>
+        <StackPanel x:Name="imagenesPrimeraFila" Orientation="Horizontal" RelativePanel.AlignTopWithPanel="True" RelativePanel.RightOf="menuBotones">
+            <Image Source="/Assets/lago-wanakanueva-zelanda_3bca218b_800x800.jpg" MaxWidth="450" MaxHeight="450"/>
+            <Image Source="/Assets/hemis-0255544__800x800.jpg" MaxWidth="450" MaxHeight="450" />
+            <Image Source="/Assets/75-756527_10-latest-scenery-wallpaper-hd-1080p-full-hd.jpg" MaxWidth="450" MaxHeight="450" />
+            
+        </StackPanel>
+        <StackPanel x:Name="imagenesSegundaFila" Orientation="Horizontal" RelativePanel.Below="imagenesPrimeraFila" RelativePanel.RightOf="menuBotones">
+            <Image Source="/Assets/75-756527_10-latest-scenery-wallpaper-hd-1080p-full-hd.jpg" MaxWidth="450" MaxHeight="450"/>
+            <Image Source="/Assets/lago-wanakanueva-zelanda_3bca218b_800x800.jpg" MaxWidth="450" MaxHeight="450"/>
+            <Image Source="/Assets/hemis-0255544__800x800.jpg" MaxWidth="450" MaxHeight="450" />
+        </StackPanel>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="VisualStateGroup">
+                <VisualState x:Name="VisualStateDesktop">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="550" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="menuBotones.Orientation" Value="Vertical" />
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="VisualStateMobile">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="menuBotones.Orientation" Value="Horizontal"/>
+                        <Setter Target="imagenesPrimeraFila.Orientation" Value="Vertical"/>
+                        <Setter Target="imagenesSegundaFila.Orientation" Value="Vertical"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </RelativePanel>
+</Page>
+<!--habria sido mejor hacer las imagenes en un Grid, asi se amolda mejor a la pantalla. Para hacerlo asi hay que definir 9 filas y 3 columnas, para luego reubicar las imagenes -->

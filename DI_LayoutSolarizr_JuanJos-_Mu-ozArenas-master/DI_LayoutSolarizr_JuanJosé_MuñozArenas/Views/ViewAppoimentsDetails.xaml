@@ -1,0 +1,121 @@
+﻿<Page
+    x:Class="DI_LayoutSolarizr_JuanJosé_MuñozArenas.ViewAppoimentsDetails"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DI_LayoutSolarizr_JuanJosé_MuñozArenas"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <ScrollViewer>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowHeight="0"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="pvtDetails.Visibility" Value="Visible"></Setter>
+                        <Setter Target="txtAppoimentType.Visibility" Value="Collapsed"></Setter>
+                        <Setter Target="txtDate.Visibility" Value="Collapsed"></Setter>
+                        <Setter Target="txtTime.Visibility" Value="Collapsed"></Setter>
+                        <Setter Target="txtName.Visibility" Value="Collapsed"></Setter>
+                        <Setter Target="txtAddress.Visibility" Value="Collapsed"></Setter>
+                        <Setter Target="txtPhoneNumber.Visibility" Value="Collapsed"></Setter>
+                        <Setter Target="mpcMap.Visibility" Value="Collapsed"></Setter>
+                        <Setter Target="stkButtons.Visibility" Value="Collapsed"></Setter>
+                        <Setter Target="txtNotes.Visibility" Value="Collapsed"></Setter>
+                        <Setter Target="mpcMapPivot.MinWidth" Value="100"></Setter>
+                        <Setter Target="mpcMapPivot.MinHeight" Value="100"></Setter>
+                        <Setter Target="mpcMapPivot.MaxWidth" Value="300"></Setter>
+                        <Setter Target="mpcMapPivot.MaxHeight" Value="300"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowHeight="500" MinWindowWidth="800"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="pvtDetails.Visibility" Value="Collapsed"></Setter>
+                        <Setter Target="mpcMap.MinWidth" Value="550"></Setter>
+                        <Setter Target="mpcMap.MinHeight" Value="250"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowHeight="500" MinWindowWidth="0"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="pvtDetails.Visibility" Value="Collapsed"></Setter>
+                        <Setter Target="stkDetails.MaxWidth" Value="350"></Setter>
+                        <Setter Target="mpcMap.MinWidth" Value="550"></Setter>
+                        <Setter Target="mpcMap.MinHeight" Value="250"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <RelativePanel Padding="0,0,30,30">
+            <RelativePanel.Background>
+            <ImageBrush Stretch="Fill" ImageSource="/Assets/solarPannelImageAtBottom.jpg"/>
+        </RelativePanel.Background>
+            <AppBarButton  x:Name="btnBack" Background="Gray" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True"  Icon="Back" MaxWidth="40" MaxHeight="40" Margin="10,10,0,0" Tapped="AppBarButton_TappedBack"></AppBarButton>
+            <StackPanel x:Name="stkDetails" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignHorizontalCenterWithPanel="True" Padding="50,40,50,0" Margin="0,20,0,0">
+            <StackPanel.Background>
+                <SolidColorBrush Color="black" Opacity="0.7"></SolidColorBrush>
+            </StackPanel.Background>
+            <Maps:MapControl x:Name="mpcMap" MapServiceToken="3xsIWaqP9ZQEX1uhn3ei~_dmJmXP8WxFFGVKTUmh6hQ~Ai3cgqFS9IO2LCmRV9uEC0Z_krDYdKDKqlAKNhGEzbHtqrVmYCKuIJo2gnkO1zoz"/>
+            <TextBlock x:Name="txtAppoimentType" FontWeight="Bold" Foreground="White" Margin="0,20,0,-10" Text="Appoiment Type: " TextWrapping="Wrap" FontSize="25"></TextBlock>
+            <TextBlock x:Name="txtDate" FontWeight="SemiBold" Foreground="White" Margin="0,20,0,10" Text="Date: " TextWrapping="Wrap" FontSize="25"></TextBlock>
+            <TextBlock x:Name="txtTime" FontWeight="SemiBold" Foreground="White" Margin="0,0,0,10" Text="Time: " TextWrapping="Wrap" FontSize="25"></TextBlock>
+            <TextBlock x:Name="txtName" Foreground="White" Margin="0,0,0,10" Text="Customer Name: " TextWrapping="Wrap"  FontSize="25"></TextBlock>
+            <TextBlock x:Name="txtAddress" Foreground="White" Margin="0,0,0,10" Text="Street: " TextWrapping="Wrap"  FontSize="25"></TextBlock>
+            <TextBlock x:Name="txtPhoneNumber" Foreground="White" FontSize="25" Text="Phone Number: "  Margin="0,0,0,40" TextWrapping="Wrap" ></TextBlock>
+            <TextBox x:Name="txtNotes" PlaceholderForeground="White" PlaceholderText="Write Notes Here" AutomationProperties.Name="multi-line TextBox" TextWrapping="Wrap" AcceptsReturn="True" IsSpellCheckEnabled="True"  ScrollViewer.VerticalScrollBarVisibility="Auto" 
+                         ScrollViewer.IsVerticalRailEnabled="True" Width="auto" MinHeight="100" MaxHeight="250"/>
+            <StackPanel x:Name="stkButtons" Orientation="Horizontal" HorizontalAlignment="Right" Padding="0,5,2,0">
+                <AppBarButton Icon="Camera" Background="Gray"  MaxWidth="40" MaxHeight="40" Tapped="AddImage_Tapped" />
+                    <AppBarButton Icon="Send" Background="gray" MaxWidth="40" MaxHeight="40" Margin="10,0,0,0" Tapped="AppBarButton_TappedSend"/>
+            </StackPanel>
+            <!-- A pesar de haber especificado el token, a veces en la preview sale que no está especificado, pero una vez se ejecuta la app, el aviso desaparece, supongo que entonces es cuando detectará que si hay un token especificado.-->
+            <Pivot x:Name="pvtDetails" MaxWidth="250">
+                <PivotItem>
+                    <PivotItem.Header>
+                        <TextBlock Foreground="White" Text="Details">
+                        </TextBlock>
+                    </PivotItem.Header>
+                    <StackPanel Padding="0,10,0,0">
+                        <TextBlock Foreground="White"  FontSize="15" Text="{Binding ElementName=txtAppoimentType, Path=Text}" TextWrapping="Wrap" Margin="0,0,0,5"></TextBlock>
+                        <TextBlock Foreground="White"  FontSize="15" Text="{Binding ElementName=txtDate, Path=Text}" TextWrapping="Wrap" Margin="0,0,0,5"></TextBlock>
+                        <TextBlock Foreground="White"  FontSize="15" Text="{Binding ElementName=txtTime, Path=Text}" TextWrapping="Wrap"  Margin="0,0,0,5"></TextBlock>
+                        <TextBlock Foreground="White"  FontSize="15" Text="{Binding ElementName=txtName, Path=Text}"  TextWrapping="Wrap" Margin="0,0,0,5"></TextBlock>
+                        <TextBlock  Foreground="White" Text="{Binding ElementName=txtAddress, Path=Text}"  FontSize="15" TextWrapping="Wrap" Margin="0,0,0,5"></TextBlock>
+                        <TextBlock  Foreground="White" FontSize="15" Text="{Binding ElementName=txtPhoneNumber, Path=Text}" TextWrapping="Wrap" Margin="0,0,0,5"></TextBlock>
+                    </StackPanel>
+                </PivotItem>
+                <PivotItem Padding="0,10,0,10">
+                    <PivotItem.Header >
+                        <TextBlock Foreground="White" Text="Map">
+                        </TextBlock>
+                    </PivotItem.Header>
+                    <Maps:MapControl x:Name="mpcMapPivot" MapServiceToken="3xsIWaqP9ZQEX1uhn3ei~_dmJmXP8WxFFGVKTUmh6hQ~Ai3cgqFS9IO2LCmRV9uEC0Z_krDYdKDKqlAKNhGEzbHtqrVmYCKuIJo2gnkO1zoz"/>
+                </PivotItem>
+                <PivotItem Padding="0,10,0,10">
+                    <PivotItem.Header >
+                        <TextBlock Foreground="White" Text="Notes">
+                        </TextBlock>
+                    </PivotItem.Header>
+                    <StackPanel>
+                        <TextBox AutomationProperties.Name="multi-line TextBox" AcceptsReturn="True" IsSpellCheckEnabled="True"  ScrollViewer.VerticalScrollBarVisibility="Auto" 
+                         ScrollViewer.IsVerticalRailEnabled="True" Width="auto" MinHeight="100" MaxHeight="120"/>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Padding="0,10,2,0">
+                                <AppBarButton Icon="Camera" Background="Gray"  MaxWidth="40" MaxHeight="40" Tapped="AddImage_Tapped"/>
+                            <AppBarButton Icon="Send" Background="Gray"  MaxWidth="40" MaxHeight="40" Margin="10,0,0,0" Tapped="AppBarButton_TappedSend"/>
+                        </StackPanel>
+                    </StackPanel>
+                </PivotItem>
+            </Pivot>
+        </StackPanel>
+    </RelativePanel>
+    </ScrollViewer>
+</Page>

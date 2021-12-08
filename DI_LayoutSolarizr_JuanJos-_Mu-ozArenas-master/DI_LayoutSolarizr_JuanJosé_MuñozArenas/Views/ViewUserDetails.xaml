@@ -1,0 +1,68 @@
+﻿<Page
+    x:Class="DI_LayoutSolarizr_JuanJosé_MuñozArenas.Views.ViewUserDetails"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DI_LayoutSolarizr_JuanJosé_MuñozArenas.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <RelativePanel>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="stkUserDetails.(RelativePanel.AlignRightWithPanel)" Value="True"></Setter>
+                        <Setter Target="stkUserDetails.(RelativePanel.AlignVerticalCenterWithPanel)" Value="True"></Setter>
+                        <Setter Target="stkUserDetails.Margin" Value="0,0,70,0"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="600"></AdaptiveTrigger>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="stkUserDetails.(RelativePanel.AlignHorizontalCenterWithPanel)" Value="True"></Setter>
+                        <Setter Target="stkUserDetails.(RelativePanel.AlignVerticalCenterWithPanel)" Value="True"></Setter>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <RelativePanel.Background>
+            <ImageBrush Stretch="Fill" ImageSource="/Assets/solarPannelImageAtBottom.jpg"/>
+        </RelativePanel.Background>
+        <StackPanel x:Name="stkUserDetails" MaxWidth="300" Padding="20,20,20,20">
+            <StackPanel.Background>
+                <SolidColorBrush Opacity="0.7" Color="Black"></SolidColorBrush>
+            </StackPanel.Background>
+            <Ellipse MinHeight="120">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/Assets/f1.png"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <AppBarButton Icon="BrowsePhotos" Foreground="White" HorizontalAlignment="Right" Margin="0,10,0,0" Tapped="ChangueImage_Tapped"></AppBarButton>
+            <StackPanel Orientation="Horizontal" Margin="20,-20,0,20">
+                <FontIcon Foreground="White" FontFamily="Segoe MDL2 Assets" Glyph="&#xe77b;"/>
+                <TextBlock Foreground="White" Margin="5,7,0,0">Fernando Galiana</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="20,-10,0,0">
+                <TextBlock x:Name="txtPassword" Foreground="White" Margin="0,10,0,0">Password: **********</TextBlock>
+                <AppBarButton Icon="View" Foreground="White" Margin="-14,0,0,0" Tapped="ShowPassword_Tapped"></AppBarButton>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="20,-10,0,0">
+                <TextBlock Foreground="White" Margin="0,10,0,0" Tapped="LogOut_Tapped">Log Out:</TextBlock>
+                <AppBarButton Icon="BlockContact" Foreground="White" Margin="-14,0,0,0" Tapped="LogOut_Tapped"></AppBarButton>
+            </StackPanel>
+        </StackPanel>
+        <NavigationView x:Name="nvUserDetails" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignTopWithPanel="True"  OpenPaneLength="180" ItemInvoked="NavigationView_ItemInvoked" IsPaneOpen="False" IsBackButtonVisible="Collapsed" IsSettingsVisible="True" IsPaneVisible="True" PaneDisplayMode="LeftCompact" IsTabStop="False">
+            <NavigationView.MenuItems>
+                <NavigationViewItem x:Name="HomeAppoiments" Icon="Home" Content="Home"/>
+                <NavigationViewItem x:Name="ContactButton" Icon="Contact"  Content="Users"/>
+                <NavigationViewItem x:Name="CameraButton" Icon="Camera"  Content="Camera"/>
+            </NavigationView.MenuItems>
+        </NavigationView>
+    </RelativePanel>
+</Page>
