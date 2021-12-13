@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Capa_BL</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Capa DAL\Capa DAL.csproj" />
+    <ProjectReference Include="..\Capa Entidades\Capa Entidades.csproj" />
+  </ItemGroup>
+
+</Project>

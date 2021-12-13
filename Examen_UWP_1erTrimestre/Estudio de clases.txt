@@ -1,0 +1,36 @@
+Capa UI:
+	Model: 
+		clsPlantaCantidad: hereda de clsPlanta
+			atributos: int cantidad
+	Vista: vistaPrincipal (detallada en la pagina del examen)
+	ViewModel: listado (clsplantaCantidades) de plantas, contabilidadActual clsContabilidad
+	Utilidades: clsVMBase, DelegateComand
+Capa BL:
+Listados
+	Listados_Plantas_BL: clase que llama a los corerespondientes metodos de la DAL
+		public static List<clsPlanta> Listado_Completo_Plantas_BL(int idCategoria)
+Manejadores
+	Manejadores_Contabilidad_BL: clase que llama a los corerespondientes metodos de la DAL
+		public static int Insertar_Modificar_Contabilidad_BL(clsContabilidad contabilidad)
+Capa DAL:
+conexion
+	clsMyConexion: clase que establece una conexion con la base de datos especificada
+		atributos: SqlConnection sqlConexion, String miCadena
+		public bool abrirConexion()
+		public void cerrarConexion()
+Listados
+	Listados_Plantas_DAL: clase que lista las plantas segun ciertos criterios
+		atributos: clsMyConexion conexionDAL
+		public static List<clsPlanta> Listado_Completo_Plantas_DAL()
+		private static clsPlanta generaPlantaLeida(SqlDataReader lector)
+Manejadores
+	Manejadores_Contabilidad_DAL: clase que modifica la contabilidad segun ciertos criterios
+		atributos: clsMyConexion conexionDAL
+		public static int Insertar_Modificar_Contabilidad_DAL(clsContabilidad contabilidad)
+Capa Entidades:
+	clsPlanta: clase q recoge las caracteristicas de una planta
+		atributos: idPlanta, nombrePlanta, descripcion, idCategoria, precio
+	clsContabilidad: clase q recoge las caracteristicas de la contabilidad
+		atributos: date fechaActual, float recaudacionDada, float recaudacionReal
+	*ambas clases tienen constructores por defecto, con todos los parametros y de copia y
+		propiedades publicas por defecto de todos los getters y setters.

@@ -1,0 +1,9 @@
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa Entidades\bin\Debug\netstandard2.0\Capa Entidades.deps.json
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa Entidades\bin\Debug\netstandard2.0\Capa Entidades.dll
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa Entidades\bin\Debug\netstandard2.0\Capa Entidades.pdb
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa Entidades\obj\Debug\netstandard2.0\Capa Entidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa Entidades\obj\Debug\netstandard2.0\Capa Entidades.AssemblyInfoInputs.cache
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa Entidades\obj\Debug\netstandard2.0\Capa Entidades.AssemblyInfo.cs
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa Entidades\obj\Debug\netstandard2.0\Capa Entidades.csproj.CoreCompileInputs.cache
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa Entidades\obj\Debug\netstandard2.0\Capa Entidades.dll
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa Entidades\obj\Debug\netstandard2.0\Capa Entidades.pdb

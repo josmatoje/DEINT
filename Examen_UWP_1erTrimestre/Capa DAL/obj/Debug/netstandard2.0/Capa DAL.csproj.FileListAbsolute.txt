@@ -1,0 +1,15 @@
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa DAL\bin\Debug\netstandard2.0\Capa DAL.deps.json
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa DAL\bin\Debug\netstandard2.0\Capa DAL.dll
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa DAL\bin\Debug\netstandard2.0\Capa DAL.pdb
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa DAL\bin\Debug\netstandard2.0\Capa Entidades.dll
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa DAL\bin\Debug\netstandard2.0\System.Data.SqlClient.dll
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa DAL\bin\Debug\netstandard2.0\Capa Entidades.pdb
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa DAL\bin\Debug\netstandard2.0\System.Data.SqlClient.xml
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa DAL\obj\Debug\netstandard2.0\Capa DAL.csproj.AssemblyReference.cache
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa DAL\obj\Debug\netstandard2.0\Capa DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa DAL\obj\Debug\netstandard2.0\Capa DAL.AssemblyInfoInputs.cache
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa DAL\obj\Debug\netstandard2.0\Capa DAL.AssemblyInfo.cs
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa DAL\obj\Debug\netstandard2.0\Capa DAL.csproj.CoreCompileInputs.cache
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa DAL\obj\Debug\netstandard2.0\Capa DAL.csproj.CopyComplete
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa DAL\obj\Debug\netstandard2.0\Capa DAL.dll
+D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Capa DAL\obj\Debug\netstandard2.0\Capa DAL.pdb

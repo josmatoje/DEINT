@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ljv4xWREEysj6o31y0wRXTogHf8E91WFVCMSExVFdjtmwSa5WN8OdowBfwxFin66zEStCkXqfkzXWc2lLv3spw==",
+  "success": true,
+  "projectFilePath": "D:\\jmmata\\DEINT\\Examen_UWP_1erTrimestre\\Capa Entidades\\Capa Entidades.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jmmata\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jmmata\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

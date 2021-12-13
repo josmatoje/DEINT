@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fcc483ed-3198-4eb2-8518-3e60734d6475": {
+      "ProjectGuid": "fcc483ed-3198-4eb2-8518-3e60734d6475",
+      "DisplayName": "Examen_UWP_1erTrimestre",
+      "ColorIndex": 0
+    },
+    "4f705144-977e-4900-a45c-4f24316f3ca3": {
+      "ProjectGuid": "4f705144-977e-4900-a45c-4f24316f3ca3",
+      "DisplayName": "Capa BL",
+      "ColorIndex": 1
+    },
+    "084eaeef-700a-4c73-9f09-616c74280079": {
+      "ProjectGuid": "084eaeef-700a-4c73-9f09-616c74280079",
+      "DisplayName": "Capa DAL",
+      "ColorIndex": 2
+    },
+    "28b438bf-030b-4dfc-9e45-f73b75a6747c": {
+      "ProjectGuid": "28b438bf-030b-4dfc-9e45-f73b75a6747c",
+      "DisplayName": "Capa Entidades",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}
