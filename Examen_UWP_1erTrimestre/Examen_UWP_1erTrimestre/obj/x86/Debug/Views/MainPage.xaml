@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="Examen_UWP_1erTrimestre.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Examen_UWP_1erTrimestre"
+    xmlns:vm="using:Examen_UWP_1erTrimestre.ViewModels"
+    xmlns:shortDate="using:Examen_UWP_1erTrimestre.ViewModels.Utilidades"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.DataContext>
+        <vm:MainPageVM/>
+    </Page.DataContext>
+    <Page.Resources>
+        <shortDate:clsShortDateConverter x:Key="short"/>
+    </Page.Resources>
+    
+    <RelativePanel>
+        <ListView x:ConnectionId='2' x:Name="lista" ItemsSource="{Binding ListadoPlantas}" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <RelativePanel MinWidth="200" Height="50" >
+                        <TextBlock x:Name="nombre" Text="{Binding NombrePlanta, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBlock x:Name="precio" Text="{Binding Precio, UpdateSourceTrigger=PropertyChanged}" Margin="5,0" RelativePanel.RightOf="nombre"/>
+                        <TextBox x:Name="cantidad" Text="{Binding Cantidad, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Margin="5,0" RelativePanel.RightOf="precio"/>
+                    </RelativePanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <TextBlock x:ConnectionId='3' x:Name="fechaActual" Text="{Binding ContabilidadActual.FechaActual, Converter={StaticResource short}}" FontSize="20" RelativePanel.AlignRightWithPanel="True" />
+
+        <Button x:ConnectionId='4' x:Name="btnRecaudar" Content="Calcular Recaudacion" RelativePanel.AlignRightWithPanel="True" RelativePanel.Below="fechaActual"/>
+        <Button x:ConnectionId='5' x:Name="btnGuardar" Content="Guardar" RelativePanel.AlignRightWithPanel="True" RelativePanel.Below="btnRecaudar"/>
+        <TextBlock x:ConnectionId='6' x:Name="recaudacionDada" Text="{Binding ContabilidadActual.RecaudacionDada, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+        <TextBlock x:ConnectionId='7' x:Name="recaudacionTotal" Text=""/>
+    </RelativePanel>
+</Page>
+

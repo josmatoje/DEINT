@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Examen_UWP_1erTrimestre\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-12-13T13:16:53.993</Modified>
+      <Modified>2021-12-14T07:32:12.274</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Examen_UWP_1erTrimestre\bin\x86\Debug\Examen_UWP_1erTrimestre.exe">
       <PackagePath>entrypoint\Examen_UWP_1erTrimestre.exe</PackagePath>
-      <Modified>2021-12-13T13:16:51.912</Modified>
+      <Modified>2021-12-14T07:32:07.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -98,19 +98,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Examen_UWP_1erTrimestre\bin\x86\Debug\Examen_UWP_1erTrimestre.xr.xml">
       <PackagePath>Examen_UWP_1erTrimestre.xr.xml</PackagePath>
-      <Modified>2021-12-13T13:13:26.155</Modified>
+      <Modified>2021-12-14T07:32:06.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Examen_UWP_1erTrimestre\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-12-13T13:16:51.793</Modified>
+      <Modified>2021-12-14T07:32:07.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Examen_UWP_1erTrimestre\bin\x86\Debug\Views\Error.xbf">
       <PackagePath>Views\Error.xbf</PackagePath>
-      <Modified>2021-12-13T13:16:51.794</Modified>
+      <Modified>2021-12-14T07:32:07.119</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Examen_UWP_1erTrimestre\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-12-13T13:16:51.794</Modified>
+      <Modified>2021-12-14T07:32:07.119</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -122,7 +122,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\jmmata\DEINT\Examen_UWP_1erTrimestre\Examen_UWP_1erTrimestre\bin\x86\Debug\Core\Examen_UWP_1erTrimestre.exe">
       <PackagePath>Examen_UWP_1erTrimestre.exe</PackagePath>
-      <Modified>2021-12-13T13:16:53.985</Modified>
+      <Modified>2021-12-14T07:32:12.260</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
