@@ -22,8 +22,8 @@ namespace Examen_UWP_1erTrimestre.ViewModels
         {
             try
             {
-                ListadoPlantas = new ObservableCollection<clsPlantaCantidad>();
-                Listados_Plantas_BL.Listado_Completo_Plantas_BL().ForEach(x => ListadoPlantas.Add(new clsPlantaCantidad(x)));
+                listadoPlantas = new ObservableCollection<clsPlantaCantidad>();
+                Listados_Plantas_BL.Listado_Completo_Plantas_BL().ForEach(x => listadoPlantas.Add(new clsPlantaCantidad(x)));
 
             }
             catch
@@ -36,7 +36,7 @@ namespace Examen_UWP_1erTrimestre.ViewModels
         }
         #endregion
         #region propiedades publicas
-        public ObservableCollection<clsPlantaCantidad> ListadoPlantas { get => listadoPlantas; set => listadoPlantas = value; }
+        public ObservableCollection<clsPlantaCantidad> ListadoPlantas { get => listadoPlantas;}
         public clsContabilidad ContabilidadActual { 
             get => contabilidadActual;
             set { 
