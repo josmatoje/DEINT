@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YL0X0w90bLURbwY6kJz+Q+S1nzdu30V/gE+v7fjJzA9kpyfc5nbt8z7Y4ZlsZhvSFwV61XrfKGERH8OCFVF6XQ==",
+  "success": true,
+  "projectFilePath": "D:\\GS DAM\\Repositorios\\DEINT\\U16EjercicioAPI\\U16EjercicioAPIEntidades\\U16EjercicioAPIEntidades.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\josem\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\josem\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

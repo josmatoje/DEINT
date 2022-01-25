@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XkKGJoWN6ulOQMN6kZOs4N6KZK9k0JlMFUt/2fnBrR4rtOFIF9mwG5j8eVkQGPWq/oJc8RG5z3/7u+URLkMbHw==",
+  "success": true,
+  "projectFilePath": "D:\\GS DAM\\Repositorios\\DEINT\\U15Ej1XamarinFormsHolaMundo\\U15Ej1XamarinFormsHolaMundo\\U15Ej1XamarinFormsHolaMundo.iOS\\U15Ej1XamarinFormsHolaMundo.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\josem\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\josem\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\josem\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
