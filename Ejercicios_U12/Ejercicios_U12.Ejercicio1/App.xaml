@@ -1,0 +1,11 @@
+﻿<Application
+    x:Class="Ejercicios_U12.Ejercicio1.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ejercicios_U12.Ejercicio1">
+    
+    <Application.Resources>
+        
+    </Application.Resources>
+    
+</Application>
